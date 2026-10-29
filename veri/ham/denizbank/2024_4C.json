@@ -1,0 +1,41 @@
+{
+ "durum": "ok",
+ "banka": "denizbank",
+ "donem": "2024_4C",
+ "dosya": "2024_4C_DenizBank_Konsolide.pdf",
+ "sayfa": 19,
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari_birikimli": {
+  "faiz_geliri": 286120165,
+  "faiz_gideri": 226301193,
+  "net_faiz": 59818972,
+  "net_ucret_komisyon": 31353382,
+  "alinan_ucret_komisyon": 54372159,
+  "alinan_gayrinakdi": 1650663,
+  "alinan_diger": 52721496,
+  "verilen_ucret_komisyon": 23018777
+ },
+ "onceki_yil_birikimli": {
+  "faiz_geliri": 121064422,
+  "faiz_gideri": 81540237,
+  "net_faiz": 39524185,
+  "net_ucret_komisyon": 15227340,
+  "alinan_ucret_komisyon": 21792614,
+  "alinan_gayrinakdi": 1124334,
+  "alinan_diger": 20668280,
+  "verilen_ucret_komisyon": 6565274
+ },
+ "cari_ceyrek": null,
+ "onceki_yil_ceyrek": null,
+ "satirlar": {
+  "faiz_geliri": "I.                 FAİZ GELİRLERİ                                                                              (5.IV.a)          286.120.165           121.064.422",
+  "faiz_gideri": "II.                FAİZ GİDERLERİ (-)                                                                          (5.IV.b)          226.301.193             81.540.237",
+  "net_faiz": "III.               NET FAİZ GELİRİ/GİDERİ (I - II)                                                                                 59.818.972            39.524.185",
+  "net_ucret_komisyon": "IV.                NET ÜCRET VE KOMİSYON GELİRLERİ/GİDERLERİ                                                                       31.353.382            15.227.340",
+  "alinan_ucret_komisyon": "4.1                Alınan Ücret ve Komisyonlar                                                                                     54.372.159            21.792.614",
+  "alinan_gayrinakdi": "4.1.1              Gayri Nakdi Kredilerden                                                                                          1.650.663             1.124.334",
+  "alinan_diger": "4.1.2              Diğer                                                                                                           52.721.496            20.668.280",
+  "verilen_ucret_komisyon": "4.2                Verilen Ücret ve Komisyonlar (-)                                                                                23.018.777             6.565.274"
+ }
+}

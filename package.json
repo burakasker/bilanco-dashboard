@@ -1,0 +1,16 @@
+{
+  "name": "bilanco-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Quarterly financials of 8 Turkish banks and their asset managers, Balance Sheet Dashboard",
+  "scripts": {
+    "start": "node server.js",
+    "veri": "python3 betikler/cikar_gelir_tablosu.py && python3 betikler/cikar_bilanco.py && python3 betikler/cikar_pys.py && python3 betikler/kontrol.py && python3 betikler/panel_olustur.py && node analiz/calistir.js --tur hepsi --gerekirse",
+    "buyukluk": "cd betikler && uv run -q --with xlrd python3 cikar_spk_buyukluk.py",
+    "analiz": "node analiz/calistir.js --tur hepsi",
+    "test": "node --test analiz/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

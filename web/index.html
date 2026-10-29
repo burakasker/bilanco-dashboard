@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bilanço Dashboard</title>
+<meta name="description" content="8 bankanın konsolide net faiz ve net ücret-komisyon gelirleri, 2023-2026 çeyreklik.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+</head>
+<body>
+<header class="ust" lang="tr">
+  <div class="kap">
+    <div class="ust-satir">
+      <div>
+        <h1>Bilanço Dashboard</h1>
+      </div>
+      <div class="ust-dugmeler">
+        <button id="dil" class="tema dil" type="button" aria-label="Switch to English" title="Switch to English">EN</button>
+        <button id="tema" class="tema" type="button" aria-label="Temayı değiştir">◐</button>
+      </div>
+    </div>
+    <nav class="sekmeler" role="tablist" aria-label="Görünüm">
+      <button type="button" role="tab" id="sekme-banka" data-sekme="banka" aria-controls="panelBanka" aria-selected="true">Banka</button>
+      <button type="button" role="tab" id="sekme-portfoy" data-sekme="portfoy" aria-controls="panelPortfoy" aria-selected="false">Portföy</button>
+    </nav>
+  </div>
+</header>
+
+<main class="kap" lang="tr">
+  <section class="filtre" aria-label="Görünüm ve banka seçimi">
+    <fieldset class="donem">
+      <legend>Dönem aralığı</legend>
+      <div class="donem-alanlar">
+        <label class="alan" for="donemBas"><span>Başlangıç dönemi</span><select id="donemBas"></select></label>
+        <span class="ok" aria-hidden="true">→</span>
+        <label class="alan" for="donemSon"><span>Bitiş dönemi</span><select id="donemSon"></select></label>
+        <div class="hizli donem-hizli" role="group" aria-label="Hazır aralıklar">
+          <button type="button" data-son="4" aria-pressed="false">Son 4 çeyrek</button>
+          <button type="button" data-son="8" aria-pressed="false">Son 8 çeyrek</button>
+          <button type="button" data-son="0" aria-pressed="false">Tüm dönemler</button>
+        </div>
+        <p id="donemOzet" class="donem-ozet" aria-live="polite"></p>
+      </div>
+      <div id="enfKap" class="enf">
+        <button type="button" role="switch" id="enfAnahtar" class="enf-anahtar" aria-checked="false" aria-describedby="enfAcik">
+          <span class="enf-ray" aria-hidden="true"><span class="enf-top"></span></span>
+          <span>Enflasyondan arındır</span>
+        </button>
+        <span id="enfAcik" class="enf-acik">TÜFE ile <span id="enfBaz"></span> fiyatlarına</span>
+      </div>
+    </fieldset>
+    <fieldset class="donem banka-satir">
+      <legend id="kurumBaslik">Bankalar</legend>
+      <div class="donem-alanlar">
+        <div id="bankaSecim" class="cipler" aria-label="Bankalar"></div>
+        <div class="hizli donem-hizli">
+          <button type="button" id="bankaTumu">Tümünü seç</button>
+          <button type="button" id="bankaTemizle">Temizle</button>
+        </div>
+      </div>
+    </fieldset>
+  </section>
+
+  <div id="panelBanka" role="tabpanel" aria-labelledby="sekme-banka">
+  <section class="analiz" aria-labelledby="analizBaslik">
+    <div class="analiz-bas">
+      <div>
+        <h2 id="analizBaslik" class="analiz-baslik">
+          <svg class="yz-ikon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+            <path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9z" fill="currentColor"/>
+            <path d="M19 14.5l.9 2.6 2.6.9-2.6.9-.9 2.6-.9-2.6-2.6-.9 2.6-.9z" fill="currentColor" opacity=".7"/>
+          </svg>
+          Yönetici Özeti
+          <span class="beta" title="Deneme aşamasında: yapay zekâ tarafından üretilir, rakamlar veriyle doğrulanır">Beta</span>
+          <span class="gorunmez">, yapay zekâ ile üretildi</span>
+        </h2>
+        <p id="analizMeta" class="analiz-meta"></p>
+        <p id="analizReelNot" class="analiz-meta" hidden>Özet nominal rakamlara dayanır; enflasyon anahtarı özeti değiştirmez.</p>
+      </div>
+      <button type="button" id="analizYenile" class="analiz-dugme" hidden>Analizi yenile</button>
+    </div>
+    <p id="analizDurum" class="analiz-durum" aria-live="polite"></p>
+    <div id="analizKartlar" class="analiz-kartlar"></div>
+    <div id="analizGeri" class="geri-bildirim" hidden></div>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Net Faiz Geliri</h2>
+      <p class="kart-alt">Kuveyt Türk için net kâr payı geliri.</p>
+    </div>
+    <div id="grafikFaiz" class="grafik" role="img" aria-label="Bankaların net faiz geliri çizgi grafiği"></div>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="tabloFaiz" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Net Ücret ve Komisyon Geliri</h2>
+    </div>
+    <div id="grafikKom" class="grafik" role="img" aria-label="Bankaların net ücret ve komisyon geliri çizgi grafiği"></div>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="tabloKom" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Ücret-Komisyonun Gelir Karmasındaki Payı</h2>
+      <p class="kart-alt">Net ücret-komisyon / (net faiz + net ücret-komisyon).</p>
+    </div>
+    <div id="grafikPay" class="grafik" role="img" aria-label="Ücret-komisyon payı çizgi grafiği"></div>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="tabloPay" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Yatırım Hizmetlerinin Ücret-Komisyondaki Payı</h2>
+      <p class="kart-alt">Yatırımcı sunumlarındaki net ücret-komisyon kırılımında varlık yönetimi, yatırım ürünleri ve aracılık diliminin payı.</p>
+    </div>
+    <div id="grafikUvek" class="grafik" role="img" aria-label="Yatırım hizmetlerinin ücret-komisyon içindeki payı çizgi grafiği"></div>
+    <ul id="uvekNot" class="grafik-not"></ul>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="tabloUvek" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Mevduat</h2>
+      <p class="kart-alt">Toplam mevduat (TL + yabancı para). Kuveyt Türk için toplanan fonlar / katılım fonu.</p>
+    </div>
+    <div id="grafikMevduat" class="grafik" role="img" aria-label="Bankaların toplam mevduatı çizgi grafiği"></div>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="tabloMevduat" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Mevduatın Çeyreklik Büyümesi</h2>
+      <p class="kart-alt">Toplam mevduatın bir önceki çeyrek sonuna göre değişimi, %, <span class="olcuAd">nominal</span>. Bir bankanın satırı soldan sağa açılıyorsa mevduat artıyor ama hız düşüyor; kırmızı hücreler mevduatın azaldığı çeyrekler. Hücrenin üstüne gelince artışın milyar TL karşılığı görünür.</p>
+    </div>
+    <div id="isiMevduat" class="isi-kap"></div>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Son Çeyrek Sıralaması</h2>
+      <p class="kart-alt"><span class="sonDonemAd"></span>, çeyreklik, milyar TL. Değişim geçen yılın aynı çeyreğine göre, <span class="olcuAd">nominal</span>.</p>
+    </div>
+    <div id="siralama" class="tablo-kap"></div>
+  </section>
+
+  <h2 class="bolum">Banka Bazında</h2>
+  <section id="bankaKartlari" class="izgara" aria-label="Banka kartları"></section>
+
+  <footer class="dipnot">
+    <h2>Yöntem ve Notlar</h2>
+    <ul id="notlar"></ul>
+    <details><summary>Kaynak dosyalar ve sayfalar</summary><div id="kaynaklar" class="tablo-kap"></div></details>
+  </footer>
+  </div>
+
+  <div id="panelPortfoy" role="tabpanel" aria-labelledby="sekme-portfoy" hidden>
+  <section class="analiz" aria-labelledby="pAnalizBaslik">
+    <div class="analiz-bas">
+      <div>
+        <h2 id="pAnalizBaslik" class="analiz-baslik">
+          <svg class="yz-ikon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+            <path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9z" fill="currentColor"/>
+            <path d="M19 14.5l.9 2.6 2.6.9-2.6.9-.9 2.6-.9-2.6-2.6-.9 2.6-.9z" fill="currentColor" opacity=".7"/>
+          </svg>
+          Yönetici Özeti
+          <span class="beta" title="Deneme aşamasında: yapay zekâ tarafından üretilir, rakamlar veriyle doğrulanır">Beta</span>
+          <span class="gorunmez">, yapay zekâ ile üretildi</span>
+        </h2>
+        <p id="pAnalizMeta" class="analiz-meta"></p>
+        <p id="pAnalizReelNot" class="analiz-meta" hidden>Özet nominal rakamlara dayanır; enflasyon anahtarı özeti değiştirmez.</p>
+      </div>
+      <button type="button" id="pAnalizYenile" class="analiz-dugme" hidden>Analizi yenile</button>
+    </div>
+    <p id="pAnalizDurum" class="analiz-durum" aria-live="polite"></p>
+    <div id="pAnalizKartlar" class="analiz-kartlar"></div>
+    <div id="pAnalizGeri" class="geri-bildirim" hidden></div>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Yönetilen Portföy Büyüklüğü</h2>
+      <p class="kart-alt">Çeyrek sonu yönetilen toplam portföy (yatırım ve emeklilik fonları ile bireysel portföyler), SPK verisi, <span class="olcuAd">nominal</span>.</p>
+    </div>
+    <div id="pGrafikBuyukluk" class="grafik" role="img" aria-label="Portföy şirketlerinin yönetilen portföy büyüklüğü çizgi grafiği"></div>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="pTabloBuyukluk" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Hasılat</h2>
+      <p class="kart-alt">Fon ve portföy yönetim ücretlerinden oluşan finans sektörü faaliyetleri hasılatı.</p>
+    </div>
+    <div id="pGrafikHasilat" class="grafik" role="img" aria-label="Portföy şirketlerinin hasılatı çizgi grafiği"></div>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="pTabloHasilat" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Net Dönem Kârı</h2>
+      <p class="kart-alt">Enflasyon muhasebesinin net parasal pozisyon kaybı dahil.</p>
+    </div>
+    <div id="pGrafikKar" class="grafik" role="img" aria-label="Portföy şirketlerinin net dönem kârı çizgi grafiği"></div>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="pTabloKar" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Net Kâr Marjı</h2>
+      <p class="kart-alt">Net dönem kârı / hasılat.</p>
+    </div>
+    <div id="pGrafikMarj" class="grafik" role="img" aria-label="Net kâr marjı çizgi grafiği"></div>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="pTabloMarj" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Gider Oranı</h2>
+      <p class="kart-alt">(Genel yönetim + pazarlama giderleri) / hasılat. Düşük oran daha verimli.</p>
+    </div>
+    <div id="pGrafikGider" class="grafik" role="img" aria-label="Gider oranı çizgi grafiği"></div>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="pTabloGider" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Efektif Ücret Oranı</h2>
+      <p class="kart-alt">Yıllıklandırılmış çeyreklik hasılat / çeyrek başı ve sonu portföy büyüklüğünün ortalaması. Şirketin yönettiği her 100 TL'den yılda ne kadar gelir elde ettiğini gösterir; iki taraf da yayımlandığı gibi, enflasyon anahtarından etkilenmez.</p>
+    </div>
+    <div id="pGrafikUcret" class="grafik" role="img" aria-label="Efektif ücret oranı çizgi grafiği"></div>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="pTabloUcret" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Ana Bankaya Katkı</h2>
+      <p class="kart-alt">PYŞ hasılatı / ana bankanın konsolide net ücret-komisyon geliri. Yaklaşık bir büyüklük karşılaştırmasıdır; PYŞ rakamları enflasyon muhasebeli, banka rakamları nominal.</p>
+    </div>
+    <div id="pGrafikKatki" class="grafik" role="img" aria-label="Ana bankaya katkı çizgi grafiği"></div>
+    <details class="tablo-ac"><summary>Tablo görünümü</summary><div id="pTabloKatki" class="tablo-kap"></div></details>
+  </section>
+
+  <section class="kart">
+    <div class="kart-bas">
+      <h2>Son Çeyrek Sıralaması</h2>
+      <p class="kart-alt"><span class="sonDonemAd"></span>, çeyreklik, milyon TL. Değişim geçen yılın aynı çeyreğine göre.</p>
+    </div>
+    <div id="pSiralama" class="tablo-kap"></div>
+  </section>
+
+  <h2 class="bolum">Şirket Bazında</h2>
+  <section id="pKartlar" class="izgara" aria-label="Portföy şirketi kartları"></section>
+
+  <footer class="dipnot">
+    <h2>Yöntem ve Notlar</h2>
+    <ul id="pNotlar"></ul>
+    <details><summary>Kaynak dosyalar ve sayfalar</summary><div id="pKaynaklar" class="tablo-kap"></div></details>
+  </footer>
+  </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

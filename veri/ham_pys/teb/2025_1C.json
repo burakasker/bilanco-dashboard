@@ -1,0 +1,32 @@
+{
+ "durum": "ok",
+ "kod": "teb",
+ "donem": "2025_1C",
+ "dosya": "2025_1C_TEB_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 4,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 267044195,
+   "onceki": 161084036
+  },
+  "genel_yonetim": {
+   "cari": -106674309,
+   "onceki": -72207868
+  },
+  "pazarlama": {
+   "cari": -8663632,
+   "onceki": -1491224
+  },
+  "net_kar": {
+   "cari": 90060446,
+   "onceki": 58555785
+  }
+ },
+ "satirlar": {
+  "hasilat": "Finans sektörü faaliyetleri hasılatı | 14 | 267.044.195 | 161.084.036",
+  "genel_yonetim": "Genel yönetim giderleri (-) | 15 | (106.674.309) | (72.207.868)",
+  "pazarlama": "Pazarlama, satış ve dağıtım giderleri (-) | 15 | (8.663.632) | (1.491.224)",
+  "net_kar": "Sürdürülen faaliyetler net dönem karı | 90.060.446 | 58.555.785"
+ }
+}

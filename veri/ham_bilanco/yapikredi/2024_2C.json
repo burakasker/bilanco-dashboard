@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "yapikredi",
+ "donem": "2024_2C",
+ "dosya": "2024_2C_Yapi_Kredi_Bankasi_Konsolide.pdf",
+ "sayfa": 10,
+ "satir": "I.     MEVDUAT                                                                                             2.1       821.545.160 492.055.399 1.313.600.559     638.781.576 470.104.100      1.108.885.676",
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari": {
+  "tp": 821545160,
+  "yp": 492055399,
+  "toplam": 1313600559
+ },
+ "onceki_yil_sonu": {
+  "tp": 638781576,
+  "yp": 470104100,
+  "toplam": 1108885676
+ }
+}

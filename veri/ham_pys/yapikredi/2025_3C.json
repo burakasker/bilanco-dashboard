@@ -1,0 +1,40 @@
+{
+ "durum": "ok",
+ "kod": "yapikredi",
+ "donem": "2025_3C",
+ "dosya": "2025_3C_Yapi_Kredi_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 4,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 2073025054,
+   "cari_3ay": 753791325,
+   "onceki": 1759980087,
+   "onceki_3ay": 605962047
+  },
+  "genel_yonetim": {
+   "cari": -386008478,
+   "cari_3ay": -128033744,
+   "onceki": -391274347,
+   "onceki_3ay": -117001800
+  },
+  "pazarlama": {
+   "cari": -17057798,
+   "cari_3ay": -5322623,
+   "onceki": -10897409,
+   "onceki_3ay": -3295391
+  },
+  "net_kar": {
+   "cari": 1271741031,
+   "cari_3ay": 439173911,
+   "onceki": 983290134,
+   "onceki_3ay": 379692404
+  }
+ },
+ "satirlar": {
+  "hasilat": "Finans sektörü faaliyetleri hasılatı | 14 | 2.073.025.054 | 753.791.325 | 1.759.980.087 | 605.962.047",
+  "genel_yonetim": "Genel yönetim giderleri | 15 | (386.008.478) | (128.033.744) | (391.274.347) | (117.001.800)",
+  "pazarlama": "Pazarlama giderleri | 15 | (17.057.798) | (5.322.623) | (10.897.409) | (3.295.391)",
+  "net_kar": "Sürdürülen faaliyetler dönem karı | 1.271.741.031 | 439.173.911 | 983.290.134 | 379.692.404"
+ }
+}

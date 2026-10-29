@@ -1,0 +1,40 @@
+{
+ "durum": "ok",
+ "kod": "qnb",
+ "donem": "2025_3C",
+ "dosya": "2025_3C_QNB_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 5,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 1318655514,
+   "cari_3ay": 492251746,
+   "onceki": 830988690,
+   "onceki_3ay": 346819569
+  },
+  "genel_yonetim": {
+   "cari": -274427218,
+   "cari_3ay": -110355990,
+   "onceki": -206749308,
+   "onceki_3ay": -66842090
+  },
+  "pazarlama": {
+   "cari": -11260996,
+   "cari_3ay": -4007368,
+   "onceki": -8781489,
+   "onceki_3ay": -3252890
+  },
+  "net_kar": {
+   "cari": 769761859,
+   "cari_3ay": 286574759,
+   "onceki": 414095799,
+   "onceki_3ay": 202852785
+  }
+ },
+ "satirlar": {
+  "hasilat": "Finans sektörü faaliyetleri hasılatı | 17 | 1.318.655.514 | 492.251.746 | 830.988.690 | 346.819.569",
+  "genel_yonetim": "Genel yönetim giderleri (-) | 18. 19 | (274.427.218) | (110.355.990) | (206.749.308) | (66.842.090)",
+  "pazarlama": "Pazarlama giderleri (-) | 18. 19 | (11.260.996) | (4.007.368) | (8.781.489) | (3.252.890)",
+  "net_kar": "Sürdürülen faaliyetler dönem karı | 769.761.859 | 286.574.759 | 414.095.799 | 202.852.785"
+ }
+}

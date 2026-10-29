@@ -1,0 +1,59 @@
+{
+ "durum": "ok",
+ "banka": "akbank",
+ "donem": "2026_2C",
+ "dosya": "2026_2C_Akbank_Konsolide.pdf",
+ "sayfa": 10,
+ "birim": "bin TL",
+ "kaynak_birim": "milyon TL",
+ "cari_birikimli": {
+  "faiz_geliri": 368213000,
+  "faiz_gideri": 280187000,
+  "net_faiz": 88026000,
+  "net_ucret_komisyon": 69098000,
+  "alinan_ucret_komisyon": 86242000,
+  "alinan_gayrinakdi": 2098000,
+  "alinan_diger": 84144000,
+  "verilen_ucret_komisyon": 17144000
+ },
+ "onceki_yil_birikimli": {
+  "faiz_geliri": 310005000,
+  "faiz_gideri": 270157000,
+  "net_faiz": 39848000,
+  "net_ucret_komisyon": 51219000,
+  "alinan_ucret_komisyon": 63246000,
+  "alinan_gayrinakdi": 1548000,
+  "alinan_diger": 61698000,
+  "verilen_ucret_komisyon": 12027000
+ },
+ "cari_ceyrek": {
+  "faiz_geliri": 196758000,
+  "faiz_gideri": 151818000,
+  "net_faiz": 44940000,
+  "net_ucret_komisyon": 36697000,
+  "alinan_ucret_komisyon": 45808000,
+  "alinan_gayrinakdi": 1049000,
+  "alinan_diger": 44759000,
+  "verilen_ucret_komisyon": 9111000
+ },
+ "onceki_yil_ceyrek": {
+  "faiz_geliri": 163733000,
+  "faiz_gideri": 143412000,
+  "net_faiz": 20321000,
+  "net_ucret_komisyon": 27223000,
+  "alinan_ucret_komisyon": 33608000,
+  "alinan_gayrinakdi": 786000,
+  "alinan_diger": 32822000,
+  "verilen_ucret_komisyon": 6385000
+ },
+ "satirlar": {
+  "faiz_geliri": "I.                                               (IV-a)             368.213            196.758                 310.005                163.733",
+  "faiz_gideri": "II.                                              (IV-b)             280.187            151.818                 270.157                143.412",
+  "net_faiz": "III.                                                                  88.026             44.940                 39.848                 20.321",
+  "net_ucret_komisyon": "IV.                                                                   69.098             36.697                 51.219                 27.223",
+  "alinan_ucret_komisyon": "4.1                                                                    86.242             45.808                 63.246                 33.608",
+  "alinan_gayrinakdi": "4.1.1    Gayri Nakdi Kredilerden                                        2.098              1.049                   1.548                    786",
+  "alinan_diger": "4.1.2                                                                  84.144             44.759                 61.698                 32.822",
+  "verilen_ucret_komisyon": "4.2                                                                    17.144              9.111                 12.027                   6.385"
+ }
+}

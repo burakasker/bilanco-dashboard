@@ -1,0 +1,40 @@
+{
+ "durum": "ok",
+ "kod": "isbank",
+ "donem": "2025_3C",
+ "dosya": "2025_3C_Is_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 4,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 1975531900,
+   "cari_3ay": 711930610,
+   "onceki": 1651681118,
+   "onceki_3ay": 625951940
+  },
+  "genel_yonetim": {
+   "cari": -832556579,
+   "cari_3ay": -286007548,
+   "onceki": -670961711,
+   "onceki_3ay": -221980468
+  },
+  "pazarlama": {
+   "cari": -28813025,
+   "cari_3ay": -9228788,
+   "onceki": -28622519,
+   "onceki_3ay": -8225861
+  },
+  "net_kar": {
+   "cari": 940866711,
+   "cari_3ay": 347204388,
+   "onceki": 709117561,
+   "onceki_3ay": 312508751
+  }
+ },
+ "satirlar": {
+  "hasilat": "Hasılat | 10 | 1.975.531.900 | 711.930.610 1.651.681.118 | 625.951.940",
+  "genel_yonetim": "Genel yönetim giderleri | 13 | (832.556.579) | (286.007.548) (670.961.711) | (221.980.468)",
+  "pazarlama": "Pazarlama, satış ve dağıtım giderleri | (28.813.025) | (9.228.788) (28.622.519) | (8.225.861)",
+  "net_kar": "DÖNEM KARI | 940.866.711 | 347.204.388 | 709.117.561 | 312.508.751"
+ }
+}

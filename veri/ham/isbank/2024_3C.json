@@ -1,0 +1,59 @@
+{
+ "durum": "ok",
+ "banka": "isbank",
+ "donem": "2024_3C",
+ "dosya": "2024_3C_Is_Bankasi_Konsolide.pdf",
+ "sayfa": 15,
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari_birikimli": {
+  "faiz_geliri": 422197455,
+  "faiz_gideri": 364387872,
+  "net_faiz": 57809583,
+  "net_ucret_komisyon": 61180958,
+  "alinan_ucret_komisyon": 85428910,
+  "alinan_gayrinakdi": 4129597,
+  "alinan_diger": 81299313,
+  "verilen_ucret_komisyon": 24247952
+ },
+ "onceki_yil_birikimli": {
+  "faiz_geliri": 163143084,
+  "faiz_gideri": 98131915,
+  "net_faiz": 65011169,
+  "net_ucret_komisyon": 24483450,
+  "alinan_ucret_komisyon": 34975786,
+  "alinan_gayrinakdi": 2661548,
+  "alinan_diger": 32314238,
+  "verilen_ucret_komisyon": 10492336
+ },
+ "cari_ceyrek": {
+  "faiz_geliri": 161571502,
+  "faiz_gideri": 149268765,
+  "net_faiz": 12302737,
+  "net_ucret_komisyon": 22521660,
+  "alinan_ucret_komisyon": 31673812,
+  "alinan_gayrinakdi": 1481047,
+  "alinan_diger": 30192765,
+  "verilen_ucret_komisyon": 9152152
+ },
+ "onceki_yil_ceyrek": {
+  "faiz_geliri": 67278050,
+  "faiz_gideri": 45727327,
+  "net_faiz": 21550723,
+  "net_ucret_komisyon": 12003453,
+  "alinan_ucret_komisyon": 16920992,
+  "alinan_gayrinakdi": 1096630,
+  "alinan_diger": 15824362,
+  "verilen_ucret_komisyon": 4917539
+ },
+ "satirlar": {
+  "faiz_geliri": "I.      FAİZ GELİRLERİ                                                                                    V-IV-a                   422.197.455                 163.143.084                     161.571.502                 67.278.050",
+  "faiz_gideri": "II.     FAİZ GİDERLERİ (‐)                                                                                V-IV-b                  364.387.872                   98.131.915                    149.268.765                   45.727.327",
+  "net_faiz": "III.    NET FAİZ GELİRİ/GİDERİ (I ‐ II)                                                                                            57.809.583                   65.011.169                     12.302.737                   21.550.723",
+  "net_ucret_komisyon": "IV.     NET ÜCRET VE KOMİSYON GELİRLERİ/GİDERLERİ                                                                                  61.180.958                   24.483.450                     22.521.660                   12.003.453",
+  "alinan_ucret_komisyon": "4.1     Alınan Ücret ve Komisyonlar                                                                                                 85.428.910                  34.975.786                      31.673.812                  16.920.992",
+  "alinan_gayrinakdi": "4.1.1   Gayri Nakdi Kredilerden                                                                                                      4.129.597                    2.661.548                      1.481.047                   1.096.630",
+  "alinan_diger": "4.1.2   Diğer                                                                                                                       81.299.313                  32.314.238                      30.192.765                  15.824.362",
+  "verilen_ucret_komisyon": "4.2     Verilen Ücret ve Komisyonlar (-)                                                                                            24.247.952                  10.492.336                       9.152.152                   4.917.539"
+ }
+}

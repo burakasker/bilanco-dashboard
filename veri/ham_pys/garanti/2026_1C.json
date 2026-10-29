@@ -1,0 +1,32 @@
+{
+ "durum": "ok",
+ "kod": "garanti",
+ "donem": "2026_1C",
+ "dosya": "2026_1C_Garanti_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 4,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 1139146184,
+   "onceki": 815181881
+  },
+  "genel_yonetim": {
+   "cari": -281022074,
+   "onceki": -197296583
+  },
+  "pazarlama": {
+   "cari": -4511055,
+   "onceki": -4071925
+  },
+  "net_kar": {
+   "cari": 488789137,
+   "onceki": 412821187
+  }
+ },
+ "satirlar": {
+  "hasilat": "Hasılat | 13 | 1.139.146.184 | 815.181.881",
+  "genel_yonetim": "Genel Yönetim Giderleri (-) | 14 | (281.022.074) | (197.296.583)",
+  "pazarlama": "Pazarlama Giderleri (-) | 14 | (4.511.055) | (4.071.925)",
+  "net_kar": "DÖNEM NET KARI | 488.789.137 | 412.821.187"
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "durum": "ok",
+ "kod": "isbank",
+ "donem": "2025_4C",
+ "dosya": "2025_4C_Is_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 10,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 2929618772,
+   "onceki": 2382102208
+  },
+  "genel_yonetim": {
+   "cari": -1181532605,
+   "onceki": -955686097
+  },
+  "pazarlama": {
+   "cari": -84683943,
+   "onceki": -49211867
+  },
+  "net_kar": {
+   "cari": 1483637804,
+   "onceki": 1084100710
+  }
+ },
+ "satirlar": {
+  "hasilat": "Hasılat | 15 | 2.929.618.772 | 2.382.102.208",
+  "genel_yonetim": "Genel Yönetim Giderleri | 18 | (1.181.532.605) | (955.686.097)",
+  "pazarlama": "Pazarlama, Satış ve Dağıtım Giderleri | 19 | (84.683.943) | (49.211.867)",
+  "net_kar": "Sürdürülen Faaliyetler Dönem Karı | 1.483.637.804 | 1.084.100.710"
+ }
+}

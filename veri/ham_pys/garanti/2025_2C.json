@@ -1,0 +1,40 @@
+{
+ "durum": "ok",
+ "kod": "garanti",
+ "donem": "2025_2C",
+ "dosya": "2025_2C_Garanti_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 5,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 1355968632,
+   "cari_3ay": 695633487,
+   "onceki": 736153841,
+   "onceki_3ay": 419930546
+  },
+  "genel_yonetim": {
+   "cari": -301933136,
+   "cari_3ay": -142113750,
+   "onceki": -230520881,
+   "onceki_3ay": -113530744
+  },
+  "pazarlama": {
+   "cari": -6501418,
+   "cari_3ay": -3202970,
+   "onceki": -2826514,
+   "onceki_3ay": -1832631
+  },
+  "net_kar": {
+   "cari": 783479783,
+   "cari_3ay": 449075469,
+   "onceki": 333407129,
+   "onceki_3ay": 258028904
+  }
+ },
+ "satirlar": {
+  "hasilat": "Hasılat | 14 | 1.355.968.632 | 695.633.487 | 736.153.841 | 419.930.546",
+  "genel_yonetim": "Genel Yönetim Giderleri (-) | 15 | (301.933.136) | (142.113.750) | (230.520.881) | (113.530.744)",
+  "pazarlama": "Pazarlama Giderleri (-) | 15 | (6.501.418) | (3.202.970) | (2.826.514) | (1.832.631)",
+  "net_kar": "DÖNEM KARI | 783.479.783 | 449.075.469 | 333.407.129 | 258.028.904"
+ }
+}

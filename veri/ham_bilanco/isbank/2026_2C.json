@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "isbank",
+ "donem": "2026_2C",
+ "dosya": "2026_2C_Is_Bankasi_Konsolide.pdf",
+ "sayfa": 13,
+ "satir": "I.       MEVDUAT                                                                                           V-II-a     1.909.880       1.562.467    3.472.347      1.712.131      1.460.705         3.172.836",
+ "birim": "bin TL",
+ "kaynak_birim": "milyon TL",
+ "cari": {
+  "tp": 1909880000,
+  "yp": 1562467000,
+  "toplam": 3472347000
+ },
+ "onceki_yil_sonu": {
+  "tp": 1712131000,
+  "yp": 1460705000,
+  "toplam": 3172836000
+ }
+}

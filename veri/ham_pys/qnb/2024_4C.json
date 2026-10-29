@@ -1,0 +1,32 @@
+{
+ "durum": "ok",
+ "kod": "qnb",
+ "donem": "2024_4C",
+ "dosya": "2024_4C_QNB_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 10,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 1020952920,
+   "onceki": 443930575
+  },
+  "genel_yonetim": {
+   "cari": -223697134,
+   "onceki": -158894734
+  },
+  "pazarlama": {
+   "cari": -9867104,
+   "onceki": -6786618
+  },
+  "net_kar": {
+   "cari": 569091708,
+   "onceki": 129934621
+  }
+ },
+ "satirlar": {
+  "hasilat": "Finans sektörü faaliyetleri hasılatı | 17 | 1.020.952.920 | 443.930.575",
+  "genel_yonetim": "Genel yönetim giderleri (-) | 18. 19 | (223.697.134) | (158.894.734)",
+  "pazarlama": "Pazarlama giderleri (-) | 18. 19 | (9.867.104) | (6.786.618)",
+  "net_kar": "Sürdürülen faaliyetler dönem karı | 569.091.708 | 129.934.621"
+ }
+}

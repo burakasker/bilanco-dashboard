@@ -1,0 +1,1552 @@
+{
+ "tur": "portfoy",
+ "uretim": "2026-10-21T14:06:51.700Z",
+ "donem": "2026 2Ç",
+ "model": "anthropic/claude-sonnet-5.5",
+ "veri_izi": "6f4c0f3ee710ab72a1a1144faed4671a99cda5eef9158e553d7fa59aa875b119",
+ "deneme": 2,
+ "olgu_sayisi": 156,
+ "bolumler": [
+  {
+   "baslik": "Sektör eğilimi",
+   "maddeler": [
+    {
+     "metin": "8 PYŞ'nin hasılatı yıllık yaklaşık %75,8 artışla 7.404,5 milyon TL oldu. Net kâr %49,7 artışla 3.908,7 milyon TL'ye çıktı. Kâr, hasılatın gerisinde kaldı.",
+     "olgular": [
+      "sektor.hasilat.tutar",
+      "sektor.hasilat.yillik",
+      "sektor.net_kar.tutar",
+      "sektor.net_kar.yillik"
+     ]
+    },
+    {
+     "metin": "Portföy %53 büyüyerek 8.066,1 milyar TL oldu, efektif ücret oranı %0,38 ile 0,04 puan arttı. Net marj %52,8'e 9,2 puan geriledi; gider oranı %28,6'ya 0,4 puan azaldı.",
+     "olgular": [
+      "sektor.buyukluk.tutar",
+      "sektor.buyukluk.yillik",
+      "sektor.ucret_orani",
+      "sektor.ucret_orani.yillik_puan",
+      "sektor.marj",
+      "sektor.marj.yillik_puan",
+      "sektor.gider",
+      "sektor.gider.yillik_puan"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Verimlilik ve kârlılık",
+   "maddeler": [
+    {
+     "metin": "Yapı Kredi Portföy %60,6 marj ve %17,4 gider oranıyla ikisinde de 1. sırada. İş Portföy marjda %42,3, giderde %43,9 ile son sırada; ücret oranı da %0,28 ile en düşük.",
+     "olgular": [
+      "verim.yapikredi.marj",
+      "verim.yapikredi.marj_sira",
+      "verim.yapikredi.gider",
+      "verim.yapikredi.gider_sira",
+      "verim.isbank.marj",
+      "verim.isbank.marj_sira",
+      "verim.isbank.gider",
+      "verim.isbank.gider_sira",
+      "verim.isbank.ucret_orani",
+      "verim.isbank.ucret_orani_sira"
+     ]
+    },
+    {
+     "metin": "Portföy büyümesinde Yapı Kredi Portföy %71, KT Portföy %69,1 önde. Marj yıllık bazda yalnız TEB Portföy'de arttı (8,6 puan); KT Portföy'de 32,4 puan geriledi.",
+     "olgular": [
+      "verim.yapikredi.buyukluk_yillik",
+      "verim.kuveytturk.buyukluk_yillik",
+      "verim.teb.marj_yillik_puan",
+      "verim.kuveytturk.marj_yillik_puan"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Ana bankaya katkı",
+   "maddeler": [
+    {
+     "metin": "PYŞ hasılatı, ana bankaların ücret-komisyon gelirinin %3,5'i. KT Portföy %11,2 ile 1., TEB Portföy %8 ile 2.; Garanti BBVA Portföy %2,4 ile son sırada.",
+     "olgular": [
+      "sektor.katki",
+      "katki.kuveytturk",
+      "katki.kuveytturk.sira",
+      "katki.teb",
+      "katki.teb.sira",
+      "katki.garanti",
+      "katki.garanti.sira"
+     ]
+    },
+    {
+     "metin": "Katkı oranı yıllık bazda TEB Portföy'de 2,7 puan, Ak Portföy'de 1,4 puan arttı. KT Portföy'de 0,6 puan, Deniz Portföy'de 0,3 puan azaldı.",
+     "olgular": [
+      "katki.teb.yillik_puan",
+      "katki.akbank.yillik_puan",
+      "katki.kuveytturk.yillik_puan",
+      "katki.denizbank.yillik_puan"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Dikkat edilecek noktalar",
+   "maddeler": [
+    {
+     "metin": "Rakamlar enflasyon muhasebesine göre yayımlandığı gibi alındı, tutar kıyasları yaklaşık. İş Portföy'ün bu dönem verisi konsolide rapordan, diğerleri konsolide olmayan; kıyas yaklaşık.",
+     "olgular": [
+      "dikkat.tms29",
+      "dikkat.konsolide.isbank.2026_2C"
+     ]
+    },
+    {
+     "metin": "Deniz Portföy'ün son dört çeyrekteki 2 raporu taranmış görüntüden elle okundu. KT Portföy'ün 32,4 puanlık marj düşüşü aykırı bir değer, yorumlarken dikkat gerekir.",
+     "olgular": [
+      "dikkat.elle.denizbank",
+      "verim.kuveytturk.marj_yillik_puan"
+     ]
+    }
+   ]
+  }
+ ],
+ "olgular": [
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.hasilat.tutar",
+   "baslik": "sektor",
+   "aciklama": "8 PYŞ'nin toplam hasılatı, 2026 2Ç (enflasyon muhasebeli, yayımlandığı gibi)",
+   "deger": 7404.5,
+   "birim": "mn TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.hasilat.yillik",
+   "baslik": "sektor",
+   "aciklama": "Toplam hasılatın geçen yılın aynı çeyreğine göre değişimi (yaklaşık, TMS 29)",
+   "deger": 75.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.net_kar.tutar",
+   "baslik": "sektor",
+   "aciklama": "8 PYŞ'nin toplam net dönem kârı, 2026 2Ç",
+   "deger": 3908.7,
+   "birim": "mn TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.net_kar.yillik",
+   "baslik": "sektor",
+   "aciklama": "Toplam net kârın geçen yılın aynı çeyreğine göre değişimi (yaklaşık, TMS 29)",
+   "deger": 49.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.marj",
+   "baslik": "sektor",
+   "aciklama": "8 PYŞ toplamında net kâr marjı (net kâr / hasılat)",
+   "deger": 52.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.marj.yillik_puan",
+   "baslik": "sektor",
+   "aciklama": "Toplam net kâr marjının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -9.2,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.gider",
+   "baslik": "sektor",
+   "aciklama": "8 PYŞ toplamında gider oranı ((genel yönetim + pazarlama) / hasılat)",
+   "deger": 28.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.gider.yillik_puan",
+   "baslik": "sektor",
+   "aciklama": "Toplam gider oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -0.4,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.katki",
+   "baslik": "sektor",
+   "aciklama": "8 PYŞ hasılatının 8 ana bankanın net ücret-komisyon gelirine oranı",
+   "deger": 3.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.buyukluk.tutar",
+   "baslik": "sektor",
+   "aciklama": "8 PYŞ'nin yönetilen toplam portföyü, 2026 2Ç sonu (SPK, nominal)",
+   "deger": 8066.1,
+   "birim": "milyar TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.buyukluk.yillik",
+   "baslik": "sektor",
+   "aciklama": "Yönetilen toplam portföyün geçen yılın aynı çeyrek sonuna göre değişimi (nominal)",
+   "deger": 53,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.ucret_orani",
+   "baslik": "sektor",
+   "aciklama": "8 PYŞ toplamında efektif ücret oranı (yıllıklandırılmış hasılat / ortalama portföy)",
+   "deger": 0.38,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.ucret_orani.yillik_puan",
+   "baslik": "sektor",
+   "aciklama": "Toplam efektif ücret oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": 0.04,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.buyukluk",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy yönetilen toplam portföyü, 2026 2Ç sonu (SPK)",
+   "deger": 1207.6,
+   "birim": "milyar TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.buyukluk_sira",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy portföy büyüklüğünde 8 PYŞ içinde sıra",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.buyukluk_yillik",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy portföyünün geçen yılın aynı çeyrek sonuna göre değişimi (nominal)",
+   "deger": 71,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.ucret_orani",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy efektif ücret oranı, 2026 2Ç",
+   "deger": 0.36,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.ucret_orani_sira",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy efektif ücret oranında 8 PYŞ içinde sıra (1 = en yüksek)",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.marj",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy net kâr marjı, 2026 2Ç",
+   "deger": 60.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.marj_sira",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy net kâr marjında 8 PYŞ içinde sıra",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.marj_yillik_puan",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy net kâr marjının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -10.4,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.marj_son4",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy son dört çeyreğin toplamında net kâr marjı",
+   "deger": 57.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.gider",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy gider oranı, 2026 2Ç",
+   "deger": 17.4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.gider_sira",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy gider oranında 8 PYŞ içinde sıra (1 = en düşük gider)",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.gider_yillik_puan",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy gider oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -2.9,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.hasilat",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy hasılatı, 2026 2Ç",
+   "deger": 1038.3,
+   "birim": "mn TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.yapikredi.hasilat_yillik",
+   "baslik": "verim",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy hasılatının geçen yılın aynı çeyreğine göre değişimi (yaklaşık, TMS 29)",
+   "deger": 74.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.buyukluk",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy yönetilen toplam portföyü, 2026 2Ç sonu (SPK)",
+   "deger": 1557,
+   "birim": "milyar TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.buyukluk_sira",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy portföy büyüklüğünde 8 PYŞ içinde sıra",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.buyukluk_yillik",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy portföyünün geçen yılın aynı çeyrek sonuna göre değişimi (nominal)",
+   "deger": 48.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.ucret_orani",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy efektif ücret oranı, 2026 2Ç",
+   "deger": 0.47,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.ucret_orani_sira",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy efektif ücret oranında 8 PYŞ içinde sıra (1 = en yüksek)",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.marj",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy net kâr marjı, 2026 2Ç",
+   "deger": 50.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.marj_sira",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy net kâr marjında 8 PYŞ içinde sıra",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.marj_yillik_puan",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy net kâr marjının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -5.5,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.marj_son4",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy son dört çeyreğin toplamında net kâr marjı",
+   "deger": 52.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.gider",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy gider oranı, 2026 2Ç",
+   "deger": 29.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.gider_sira",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy gider oranında 8 PYŞ içinde sıra (1 = en düşük gider)",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.gider_yillik_puan",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy gider oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -2.3,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.hasilat",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy hasılatı, 2026 2Ç",
+   "deger": 1737.1,
+   "birim": "mn TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.akbank.hasilat_yillik",
+   "baslik": "verim",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy hasılatının geçen yılın aynı çeyreğine göre değişimi (yaklaşık, TMS 29)",
+   "deger": 94,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.buyukluk",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy yönetilen toplam portföyü, 2026 2Ç sonu (SPK)",
+   "deger": 1566.4,
+   "birim": "milyar TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.buyukluk_sira",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy portföy büyüklüğünde 8 PYŞ içinde sıra",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.buyukluk_yillik",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy portföyünün geçen yılın aynı çeyrek sonuna göre değişimi (nominal)",
+   "deger": 66.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.ucret_orani",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy efektif ücret oranı, 2026 2Ç",
+   "deger": 0.28,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.ucret_orani_sira",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy efektif ücret oranında 8 PYŞ içinde sıra (1 = en yüksek)",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.marj",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy net kâr marjı, 2026 2Ç",
+   "deger": 42.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.marj_sira",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy net kâr marjında 8 PYŞ içinde sıra",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.marj_yillik_puan",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy net kâr marjının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -12.7,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.marj_son4",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy son dört çeyreğin toplamında net kâr marjı",
+   "deger": 45.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.gider",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy gider oranı, 2026 2Ç",
+   "deger": 43.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.gider_sira",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy gider oranında 8 PYŞ içinde sıra (1 = en düşük gider)",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.gider_yillik_puan",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy gider oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -0.9,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.hasilat",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy hasılatı, 2026 2Ç",
+   "deger": 1043.7,
+   "birim": "mn TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.isbank.hasilat_yillik",
+   "baslik": "verim",
+   "banka": "isbank",
+   "aciklama": "İş Portföy hasılatının geçen yılın aynı çeyreğine göre değişimi (yaklaşık, TMS 29)",
+   "deger": 84.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.buyukluk",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy yönetilen toplam portföyü, 2026 2Ç sonu (SPK)",
+   "deger": 1476.2,
+   "birim": "milyar TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.buyukluk_sira",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy portföy büyüklüğünde 8 PYŞ içinde sıra",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.buyukluk_yillik",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy portföyünün geçen yılın aynı çeyrek sonuna göre değişimi (nominal)",
+   "deger": 55.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.ucret_orani",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy efektif ücret oranı, 2026 2Ç",
+   "deger": 0.32,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.ucret_orani_sira",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy efektif ücret oranında 8 PYŞ içinde sıra (1 = en yüksek)",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.marj",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy net kâr marjı, 2026 2Ç",
+   "deger": 57.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.marj_sira",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy net kâr marjında 8 PYŞ içinde sıra",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.marj_yillik_puan",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy net kâr marjının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -7.4,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.marj_son4",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy son dört çeyreğin toplamında net kâr marjı",
+   "deger": 55.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.gider",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy gider oranı, 2026 2Ç",
+   "deger": 22.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.gider_sira",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy gider oranında 8 PYŞ içinde sıra (1 = en düşük gider)",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.gider_yillik_puan",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy gider oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": 1.2,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.hasilat",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy hasılatı, 2026 2Ç",
+   "deger": 1158.4,
+   "birim": "mn TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.garanti.hasilat_yillik",
+   "baslik": "verim",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy hasılatının geçen yılın aynı çeyreğine göre değişimi (yaklaşık, TMS 29)",
+   "deger": 66.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.buyukluk",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy yönetilen toplam portföyü, 2026 2Ç sonu (SPK)",
+   "deger": 383.2,
+   "birim": "milyar TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.buyukluk_sira",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy portföy büyüklüğünde 8 PYŞ içinde sıra",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.buyukluk_yillik",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy portföyünün geçen yılın aynı çeyrek sonuna göre değişimi (nominal)",
+   "deger": 30,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.ucret_orani",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy efektif ücret oranı, 2026 2Ç",
+   "deger": 0.44,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.ucret_orani_sira",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy efektif ücret oranında 8 PYŞ içinde sıra (1 = en yüksek)",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.marj",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy net kâr marjı, 2026 2Ç",
+   "deger": 43.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.marj_sira",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy net kâr marjında 8 PYŞ içinde sıra",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.marj_yillik_puan",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy net kâr marjının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": 8.6,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.marj_son4",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy son dört çeyreğin toplamında net kâr marjı",
+   "deger": 36.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.gider",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy gider oranı, 2026 2Ç",
+   "deger": 41.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.gider_sira",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy gider oranında 8 PYŞ içinde sıra (1 = en düşük gider)",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.gider_yillik_puan",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy gider oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -3.7,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.hasilat",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy hasılatı, 2026 2Ç",
+   "deger": 430.8,
+   "birim": "mn TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.teb.hasilat_yillik",
+   "baslik": "verim",
+   "banka": "teb",
+   "aciklama": "TEB Portföy hasılatının geçen yılın aynı çeyreğine göre değişimi (yaklaşık, TMS 29)",
+   "deger": 92.4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.buyukluk",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy yönetilen toplam portföyü, 2026 2Ç sonu (SPK)",
+   "deger": 579.7,
+   "birim": "milyar TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.buyukluk_sira",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy portföy büyüklüğünde 8 PYŞ içinde sıra",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.buyukluk_yillik",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy portföyünün geçen yılın aynı çeyrek sonuna göre değişimi (nominal)",
+   "deger": 48.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.ucret_orani",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy efektif ücret oranı, 2026 2Ç",
+   "deger": 0.47,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.ucret_orani_sira",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy efektif ücret oranında 8 PYŞ içinde sıra (1 = en yüksek)",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.marj",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy net kâr marjı, 2026 2Ç",
+   "deger": 58.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.marj_sira",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy net kâr marjında 8 PYŞ içinde sıra",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.marj_yillik_puan",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy net kâr marjının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -6.6,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.marj_son4",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy son dört çeyreğin toplamında net kâr marjı",
+   "deger": 58.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.gider",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy gider oranı, 2026 2Ç",
+   "deger": 21.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.gider_sira",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy gider oranında 8 PYŞ içinde sıra (1 = en düşük gider)",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.gider_yillik_puan",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy gider oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -1.1,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.hasilat",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy hasılatı, 2026 2Ç",
+   "deger": 676.6,
+   "birim": "mn TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.qnb.hasilat_yillik",
+   "baslik": "verim",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy hasılatının geçen yılın aynı çeyreğine göre değişimi (yaklaşık, TMS 29)",
+   "deger": 76.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.buyukluk",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy yönetilen toplam portföyü, 2026 2Ç sonu (SPK)",
+   "deger": 688.4,
+   "birim": "milyar TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.buyukluk_sira",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy portföy büyüklüğünde 8 PYŞ içinde sıra",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.buyukluk_yillik",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy portföyünün geçen yılın aynı çeyrek sonuna göre değişimi (nominal)",
+   "deger": 18.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.ucret_orani",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy efektif ücret oranı, 2026 2Ç",
+   "deger": 0.4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.ucret_orani_sira",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy efektif ücret oranında 8 PYŞ içinde sıra (1 = en yüksek)",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.marj",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy net kâr marjı, 2026 2Ç",
+   "deger": 52.4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.marj_sira",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy net kâr marjında 8 PYŞ içinde sıra",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.marj_yillik_puan",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy net kâr marjının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -2.8,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.marj_son4",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy son dört çeyreğin toplamında net kâr marjı",
+   "deger": 51.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.gider",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy gider oranı, 2026 2Ç",
+   "deger": 29.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.gider_sira",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy gider oranında 8 PYŞ içinde sıra (1 = en düşük gider)",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.gider_yillik_puan",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy gider oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": 3,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.hasilat",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy hasılatı, 2026 2Ç",
+   "deger": 654.7,
+   "birim": "mn TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.denizbank.hasilat_yillik",
+   "baslik": "verim",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy hasılatının geçen yılın aynı çeyreğine göre değişimi (yaklaşık, TMS 29)",
+   "deger": 40.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.buyukluk",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy yönetilen toplam portföyü, 2026 2Ç sonu (SPK)",
+   "deger": 607.7,
+   "birim": "milyar TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.buyukluk_sira",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy portföy büyüklüğünde 8 PYŞ içinde sıra",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.buyukluk_yillik",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy portföyünün geçen yılın aynı çeyrek sonuna göre değişimi (nominal)",
+   "deger": 69.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.ucret_orani",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy efektif ücret oranı, 2026 2Ç",
+   "deger": 0.47,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.ucret_orani_sira",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy efektif ücret oranında 8 PYŞ içinde sıra (1 = en yüksek)",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.marj",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy net kâr marjı, 2026 2Ç",
+   "deger": 54.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.marj_sira",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy net kâr marjında 8 PYŞ içinde sıra",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.marj_yillik_puan",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy net kâr marjının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -32.4,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.marj_son4",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy son dört çeyreğin toplamında net kâr marjı",
+   "deger": 50.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.gider",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy gider oranı, 2026 2Ç",
+   "deger": 28.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.gider_sira",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy gider oranında 8 PYŞ içinde sıra (1 = en düşük gider)",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.gider_yillik_puan",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy gider oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": 1.7,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.hasilat",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy hasılatı, 2026 2Ç",
+   "deger": 664.8,
+   "birim": "mn TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "verim.kuveytturk.hasilat_yillik",
+   "baslik": "verim",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy hasılatının geçen yılın aynı çeyreğine göre değişimi (yaklaşık, TMS 29)",
+   "deger": 72.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.yapikredi",
+   "baslik": "katki",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy hasılatının Yapı Kredi net ücret-komisyon gelirine oranı",
+   "deger": 3.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.yapikredi.sira",
+   "baslik": "katki",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy ana bankaya katkı oranında 8 PYŞ içinde sıra",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.yapikredi.yillik_puan",
+   "baslik": "katki",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi Portföy katkı oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": 1,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.yapikredi.yatirim_payi",
+   "baslik": "katki",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi sunumunda yatırım hizmetlerinin (Investment Products) ücret-komisyon içindeki payı",
+   "deger": 5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.akbank",
+   "baslik": "katki",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy hasılatının Akbank net ücret-komisyon gelirine oranı",
+   "deger": 4.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.akbank.sira",
+   "baslik": "katki",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy ana bankaya katkı oranında 8 PYŞ içinde sıra",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.akbank.yillik_puan",
+   "baslik": "katki",
+   "banka": "akbank",
+   "aciklama": "Ak Portföy katkı oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": 1.4,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.akbank.yatirim_payi",
+   "baslik": "katki",
+   "banka": "akbank",
+   "aciklama": "Akbank sunumunda yatırım hizmetlerinin (Wealth Management) ücret-komisyon içindeki payı",
+   "deger": 9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.isbank",
+   "baslik": "katki",
+   "banka": "isbank",
+   "aciklama": "İş Portföy hasılatının İş Bankası net ücret-komisyon gelirine oranı",
+   "deger": 2.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.isbank.sira",
+   "baslik": "katki",
+   "banka": "isbank",
+   "aciklama": "İş Portföy ana bankaya katkı oranında 8 PYŞ içinde sıra",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.isbank.yillik_puan",
+   "baslik": "katki",
+   "banka": "isbank",
+   "aciklama": "İş Portföy katkı oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": 0.6,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.isbank.yatirim_payi",
+   "baslik": "katki",
+   "banka": "isbank",
+   "aciklama": "İş Bankası sunumunda yatırım hizmetlerinin (Asset Management) ücret-komisyon içindeki payı",
+   "deger": 7.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.garanti",
+   "baslik": "katki",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy hasılatının Garanti BBVA net ücret-komisyon gelirine oranı",
+   "deger": 2.4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.garanti.sira",
+   "baslik": "katki",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy ana bankaya katkı oranında 8 PYŞ içinde sıra",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.garanti.yillik_puan",
+   "baslik": "katki",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA Portföy katkı oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": 0.4,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.garanti.yatirim_payi",
+   "baslik": "katki",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA sunumunda yatırım hizmetlerinin (Brokerage + AM) ücret-komisyon içindeki payı",
+   "deger": 10.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.teb",
+   "baslik": "katki",
+   "banka": "teb",
+   "aciklama": "TEB Portföy hasılatının TEB net ücret-komisyon gelirine oranı",
+   "deger": 8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.teb.sira",
+   "baslik": "katki",
+   "banka": "teb",
+   "aciklama": "TEB Portföy ana bankaya katkı oranında 8 PYŞ içinde sıra",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.teb.yillik_puan",
+   "baslik": "katki",
+   "banka": "teb",
+   "aciklama": "TEB Portföy katkı oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": 2.7,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.qnb",
+   "baslik": "katki",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy hasılatının QNB net ücret-komisyon gelirine oranı",
+   "deger": 2.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.qnb.sira",
+   "baslik": "katki",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy ana bankaya katkı oranında 8 PYŞ içinde sıra",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.qnb.yillik_puan",
+   "baslik": "katki",
+   "banka": "qnb",
+   "aciklama": "QNB Portföy katkı oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": 0.9,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.denizbank",
+   "baslik": "katki",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy hasılatının DenizBank net ücret-komisyon gelirine oranı",
+   "deger": 4.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.denizbank.sira",
+   "baslik": "katki",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy ana bankaya katkı oranında 8 PYŞ içinde sıra",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.denizbank.yillik_puan",
+   "baslik": "katki",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy katkı oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -0.3,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.kuveytturk",
+   "baslik": "katki",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy hasılatının Kuveyt Türk net ücret-komisyon gelirine oranı",
+   "deger": 11.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.kuveytturk.sira",
+   "baslik": "katki",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy ana bankaya katkı oranında 8 PYŞ içinde sıra",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "katki.kuveytturk.yillik_puan",
+   "baslik": "katki",
+   "banka": "kuveytturk",
+   "aciklama": "KT Portföy katkı oranının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -0.6,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.tms29",
+   "baslik": "dikkat",
+   "aciklama": "PYŞ'ler enflasyon muhasebesi (TMS 29) uygular; her rapor kendi tarihinin parasıyla yayımlanır, tutar kıyasları yaklaşıktır",
+   "deger": "TMS 29",
+   "birim": "not"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.konsolide.isbank.2026_2C",
+   "baslik": "dikkat",
+   "banka": "isbank",
+   "aciklama": "İş Portföy 2026 2Ç rakamları konsolide rapordan alındı; şirket bu dönem konsolide olmayan rapor yayımlamadı (diğer şirketler ve dönemler konsolide olmayan). Kıyas yaklaşıktır",
+   "deger": "2026 2Ç",
+   "birim": "dönem"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.elle.denizbank",
+   "baslik": "dikkat",
+   "banka": "denizbank",
+   "aciklama": "Deniz Portföy son dört çeyrekte 2 raporu taranmış görüntüden elle okundu (satır denklikleriyle kontrol edildi)",
+   "deger": 2,
+   "birim": "rapor"
+  }
+ ],
+ "kullanim": [
+  {
+   "prompt_tokens": 13403,
+   "completion_tokens": 3181,
+   "total_tokens": 16584,
+   "cost": 0.058616,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.058616,
+    "upstream_inference_prompt_cost": 0.026806,
+    "upstream_inference_completions_cost": 0.03181
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 1643,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  {
+   "prompt_tokens": 15067,
+   "completion_tokens": 2239,
+   "total_tokens": 17306,
+   "cost": 0.052524,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.052524,
+    "upstream_inference_prompt_cost": 0.030134,
+    "upstream_inference_completions_cost": 0.02239
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 703,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ]
+}

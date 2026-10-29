@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "qnb",
+ "donem": "2024_3C",
+ "dosya": "2024_3C_QNB_Konsolide.pdf",
+ "sayfa": 11,
+ "satir": "I.       MEVDUAT                                                      (1)          546.930.620   270.163.194    817.093.814    387.358.035    243.369.501    630.727.536",
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari": {
+  "tp": 546930620,
+  "yp": 270163194,
+  "toplam": 817093814
+ },
+ "onceki_yil_sonu": {
+  "tp": 387358035,
+  "yp": 243369501,
+  "toplam": 630727536
+ }
+}

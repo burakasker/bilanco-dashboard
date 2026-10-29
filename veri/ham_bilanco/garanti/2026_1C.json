@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "garanti",
+ "donem": "2026_1C",
+ "dosya": "2026_1C_Garanti_BBVA_Konsolide.pdf",
+ "sayfa": 12,
+ "satir": "I.       MEVDUAT                                                                                               5.2.1    1,695,322,600     1,471,481,852   3,166,804,452   1,617,463,571   1,532,570,006 3,150,033,577",
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari": {
+  "tp": 1695322600,
+  "yp": 1471481852,
+  "toplam": 3166804452
+ },
+ "onceki_yil_sonu": {
+  "tp": 1617463571,
+  "yp": 1532570006,
+  "toplam": 3150033577
+ }
+}

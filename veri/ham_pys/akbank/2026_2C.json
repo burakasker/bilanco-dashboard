@@ -1,0 +1,33 @@
+{
+ "durum": "ok",
+ "kod": "akbank",
+ "donem": "2026_2C",
+ "dosya": "2026_2C_Ak_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 5,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 3022092357,
+   "cari_3ay": 1737105807,
+   "onceki": 2435746181,
+   "onceki_3ay": 1183132307
+  },
+  "genel_yonetim": {
+   "cari": -875863887,
+   "cari_3ay": -515553052,
+   "onceki": -686196120,
+   "onceki_3ay": -378365760
+  },
+  "net_kar": {
+   "cari": 1362153091,
+   "cari_3ay": 884587571,
+   "onceki": 1213920828,
+   "onceki_3ay": 667205663
+  }
+ },
+ "satirlar": {
+  "hasilat": "Finans sektörü faaliyetleri hasılatı | 13 | 3.022.092.357 | 1.737.105.807 | 2.435.746.181 | 1.183.132.307",
+  "genel_yonetim": "Genel yönetim giderleri (-) | 14 | (875.863.887) | (515.553.052) | (686.196.120) | (378.365.760)",
+  "net_kar": "Sürdürülen faaliyetler dönem karı | 1.362.153.091 | 884.587.571 | 1.213.920.828 | 667.205.663"
+ }
+}

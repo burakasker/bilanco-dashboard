@@ -1,0 +1,7 @@
+kaynak
+.DS_Store
+node_modules/
+__pycache__/
+veri/analiz_hata.log
+veri/analiz_istek.log
+veri/geri_bildirim.jsonl

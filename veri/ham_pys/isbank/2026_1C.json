@@ -1,0 +1,32 @@
+{
+ "durum": "ok",
+ "kod": "isbank",
+ "donem": "2026_1C",
+ "dosya": "2026_1C_Is_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 4,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 1052169994,
+   "onceki": 751318411
+  },
+  "genel_yonetim": {
+   "cari": -457815568,
+   "onceki": -324750260
+  },
+  "pazarlama": {
+   "cari": -26039100,
+   "onceki": -11764956
+  },
+  "net_kar": {
+   "cari": 366151018,
+   "onceki": 297234663
+  }
+ },
+ "satirlar": {
+  "hasilat": "Hasılat | 10 | 1.052.169.994 | 751.318.411",
+  "genel_yonetim": "Genel yönetim giderleri | 13 | (457.815.568) | (324.750.260)",
+  "pazarlama": "Pazarlama, satış ve dağıtım giderleri | (26.039.100) | (11.764.956)",
+  "net_kar": "DÖNEM KARI | 366.151.018 | 297.234.663"
+ }
+}

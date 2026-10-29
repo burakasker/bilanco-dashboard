@@ -1,0 +1,29 @@
+{
+ "durum": "ok",
+ "kod": "denizbank",
+ "donem": "2025_3C",
+ "dosya": "2025_3C_Deniz_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 4,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 1592934272,
+   "cari_3ay": 587168152,
+   "onceki": 879434021,
+   "onceki_3ay": 377560837
+  },
+  "genel_yonetim": {
+   "cari": -421103108,
+   "cari_3ay": -150180525,
+   "onceki": -264915267,
+   "onceki_3ay": -94352494
+  },
+  "net_kar": {
+   "cari": 838388908,
+   "cari_3ay": 328414583,
+   "onceki": 415331635,
+   "onceki_3ay": 180693911
+  }
+ },
+ "elle": "Taranmış PDF; görüntüden okundu (bu raporda sütun sırası cari, önceki, cari 3 ay, önceki 3 ay), denkliklerle kontrol edildi."
+}

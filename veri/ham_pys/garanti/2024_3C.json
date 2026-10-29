@@ -1,0 +1,40 @@
+{
+ "durum": "ok",
+ "kod": "garanti",
+ "donem": "2024_3C",
+ "dosya": "2024_3C_Garanti_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 4,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 993153538,
+   "cari_3ay": 399431721,
+   "onceki": 731878324,
+   "onceki_3ay": 294638986
+  },
+  "genel_yonetim": {
+   "cari": -287053450,
+   "cari_3ay": -101133270,
+   "onceki": -217669518,
+   "onceki_3ay": -77285945
+  },
+  "pazarlama": {
+   "cari": -3793131,
+   "cari_3ay": -1513484,
+   "onceki": -3392233,
+   "onceki_3ay": -1093942
+  },
+  "net_kar": {
+   "cari": 496677478,
+   "cari_3ay": 227778404,
+   "onceki": 173564009,
+   "onceki_3ay": -6744113
+  }
+ },
+ "satirlar": {
+  "hasilat": "Hasılat | 14 | 993.153.538 | 399.431.721 | 731.878.324 | 294.638.986",
+  "genel_yonetim": "Genel Yönetim Giderleri(-) | 15 | (287.053.450) | (101.133.270) | (217.669.518) | (77.285.945)",
+  "pazarlama": "Pazarlama Giderleri (-) | 15 | (3.793.131) | (1.513.484) | (3.392.233) | (1.093.942)",
+  "net_kar": "DÖNEM KARI | 496.677.478 | 227.778.404 | 173.564.009 | (6.744.113)"
+ }
+}

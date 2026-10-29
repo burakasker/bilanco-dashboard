@@ -1,0 +1,33 @@
+{
+ "durum": "ok",
+ "kod": "kuveytturk",
+ "donem": "2026_2C",
+ "dosya": "2026_2C_KT_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 6,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 1312125836,
+   "cari_3ay": 664781610,
+   "onceki": 1055773539,
+   "onceki_3ay": 509764012
+  },
+  "genel_yonetim": {
+   "cari": -370499692,
+   "cari_3ay": -191775519,
+   "onceki": -280498947,
+   "onceki_3ay": -138489164
+  },
+  "net_kar": {
+   "cari": 653993657,
+   "cari_3ay": 362263751,
+   "onceki": 549149448,
+   "onceki_3ay": 443185563
+  }
+ },
+ "satirlar": {
+  "hasilat": "Hasılat | 16 | 1.312.125.836 | 664.781.610 | 1.055.773.539 | 509.764.012",
+  "genel_yonetim": "Genel Yönetim Giderleri (-) | 17 | (370.499.692) | (191.775.519) | (280.498.947) | (138.489.164)",
+  "net_kar": "DÖNEM KARI | 653.993.657 | 362.263.751 | 549.149.448 | 443.185.563"
+ }
+}

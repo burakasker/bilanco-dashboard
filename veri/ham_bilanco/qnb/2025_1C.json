@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "qnb",
+ "donem": "2025_1C",
+ "dosya": "2025_1C_QNB_Konsolide.pdf",
+ "sayfa": 10,
+ "satir": "I.       MEVDUAT                                                     (1)          684.199.771    309.244.443    993.444.214    604.971.435   273.463.290     878.434.725",
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari": {
+  "tp": 684199771,
+  "yp": 309244443,
+  "toplam": 993444214
+ },
+ "onceki_yil_sonu": {
+  "tp": 604971435,
+  "yp": 273463290,
+  "toplam": 878434725
+ }
+}

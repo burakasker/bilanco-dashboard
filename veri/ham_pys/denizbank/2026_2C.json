@@ -1,0 +1,33 @@
+{
+ "durum": "ok",
+ "kod": "denizbank",
+ "donem": "2026_2C",
+ "dosya": "2026_2C_Deniz_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 5,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 1371307496,
+   "cari_3ay": 654677488,
+   "onceki": 1235956988,
+   "onceki_3ay": 615164774
+  },
+  "genel_yonetim": {
+   "cari": -409168488,
+   "cari_3ay": -193902483,
+   "onceki": -336702540,
+   "onceki_3ay": -163507349
+  },
+  "net_kar": {
+   "cari": 609586504,
+   "cari_3ay": 343013355,
+   "onceki": 626692737,
+   "onceki_3ay": 339700251
+  }
+ },
+ "satirlar": {
+  "hasilat": "Hasılat | 16 | 1.371.307.496 654.677.488 1.235.956.988 615.164.774",
+  "genel_yonetim": "Genel yönetim giderleri (-) | 18,19 | (409.168.488) (193.902.483) (336.702.540) (163.507.349)",
+  "net_kar": "Dönem karı | 609.586.504 343.013.355 | 626.692.737 339.700.251"
+ }
+}

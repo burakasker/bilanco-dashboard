@@ -1,0 +1,41 @@
+{
+ "durum": "ok",
+ "banka": "akbank",
+ "donem": "2026_1C",
+ "dosya": "2026_1C_Akbank_Konsolide.pdf",
+ "sayfa": 10,
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari_birikimli": {
+  "faiz_geliri": 171455184,
+  "faiz_gideri": 128369098,
+  "net_faiz": 43086086,
+  "net_ucret_komisyon": 32401773,
+  "alinan_ucret_komisyon": 40434850,
+  "alinan_gayrinakdi": 1049389,
+  "alinan_diger": 39385461,
+  "verilen_ucret_komisyon": 8033077
+ },
+ "onceki_yil_birikimli": {
+  "faiz_geliri": 146272264,
+  "faiz_gideri": 126745086,
+  "net_faiz": 19527178,
+  "net_ucret_komisyon": 23996218,
+  "alinan_ucret_komisyon": 29637021,
+  "alinan_gayrinakdi": 762125,
+  "alinan_diger": 28874896,
+  "verilen_ucret_komisyon": 5640803
+ },
+ "cari_ceyrek": null,
+ "onceki_yil_ceyrek": null,
+ "satirlar": {
+  "faiz_geliri": "I.                                                (IV-a)          171.455.184           146.272.264",
+  "faiz_gideri": "II.                                              (IV-b)          128.369.098            126.745.086",
+  "net_faiz": "III.                                                               43.086.086            19.527.178",
+  "net_ucret_komisyon": "IV.                                                                32.401.773            23.996.218",
+  "alinan_ucret_komisyon": "4.1                                                                 40.434.850            29.637.021",
+  "alinan_gayrinakdi": "4.1.1    Gayri Nakdi Kredilerden                                     1.049.389               762.125",
+  "alinan_diger": "4.1.2                                                               39.385.461            28.874.896",
+  "verilen_ucret_komisyon": "4.2                                                                  8.033.077             5.640.803"
+ }
+}

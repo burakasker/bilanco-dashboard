@@ -1,0 +1,29 @@
+{
+ "durum": "ok",
+ "kod": "akbank",
+ "donem": "2024_3C",
+ "dosya": "2024_3C_Ak_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 4,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 1860167240,
+   "cari_3ay": 687703246,
+   "onceki": 1561023746,
+   "onceki_3ay": 503296044
+  },
+  "genel_yonetim": {
+   "cari": -555752043,
+   "cari_3ay": -165471306,
+   "onceki": -441227946,
+   "onceki_3ay": -150652668
+  },
+  "net_kar": {
+   "cari": 809595517,
+   "cari_3ay": 318590044,
+   "onceki": 559611453,
+   "onceki_3ay": -40960055
+  }
+ },
+ "elle": "Kâr satırının etiketi iki satıra bölündüğü için PDF metninden elle alındı."
+}

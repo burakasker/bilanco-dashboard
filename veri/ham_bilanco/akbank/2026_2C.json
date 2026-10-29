@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "akbank",
+ "donem": "2026_2C",
+ "dosya": "2026_2C_Akbank_Konsolide.pdf",
+ "sayfa": 8,
+ "satir": "I.       MEVDUAT                      (II-a)    1.574.677        936.412       2.511.089   1.350.918        822.503       2.173.421",
+ "birim": "bin TL",
+ "kaynak_birim": "milyon TL",
+ "cari": {
+  "tp": 1574677000,
+  "yp": 936412000,
+  "toplam": 2511089000
+ },
+ "onceki_yil_sonu": {
+  "tp": 1350918000,
+  "yp": 822503000,
+  "toplam": 2173421000
+ }
+}

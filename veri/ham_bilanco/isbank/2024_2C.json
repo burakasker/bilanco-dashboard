@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "isbank",
+ "donem": "2024_2C",
+ "dosya": "2024_2C_Is_Bankasi_Konsolide.pdf",
+ "sayfa": 13,
+ "satir": "I.       MEVDUAT                                                                                           V-II-a     1.014.519.745 879.916.198 1.894.435.943     875.970.187 834.081.633 1.710.051.820",
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari": {
+  "tp": 1014519745,
+  "yp": 879916198,
+  "toplam": 1894435943
+ },
+ "onceki_yil_sonu": {
+  "tp": 875970187,
+  "yp": 834081633,
+  "toplam": 1710051820
+ }
+}

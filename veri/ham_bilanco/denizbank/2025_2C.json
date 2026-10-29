@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "denizbank",
+ "donem": "2025_2C",
+ "dosya": "2025_2C_DenizBank_Konsolide.pdf",
+ "sayfa": 12,
+ "satir": "I.       MEVDUAT                                                              (5.II.a)   617.348.057 536.318.947       1.153.667.004   560.864.309    393.857.809     954.722.118",
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari": {
+  "tp": 617348057,
+  "yp": 536318947,
+  "toplam": 1153667004
+ },
+ "onceki_yil_sonu": {
+  "tp": 560864309,
+  "yp": 393857809,
+  "toplam": 954722118
+ }
+}

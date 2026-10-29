@@ -1,0 +1,32 @@
+{
+ "durum": "ok",
+ "kod": "yapikredi",
+ "donem": "2026_1C",
+ "dosya": "2026_1C_Yapi_Kredi_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 4,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 965979994,
+   "onceki": 778978768
+  },
+  "genel_yonetim": {
+   "cari": -167182367,
+   "onceki": -153419434
+  },
+  "pazarlama": {
+   "cari": -13116853,
+   "onceki": -7014293
+  },
+  "net_kar": {
+   "cari": 436786027,
+   "onceki": 433683244
+  }
+ },
+ "satirlar": {
+  "hasilat": "Finans sektörü faaliyetleri hasılatı | 14 | 965.979.994 | 778.978.768",
+  "genel_yonetim": "Genel yönetim giderleri | 15 | (167.182.367) | (153.419.434)",
+  "pazarlama": "Pazarlama giderleri | 15 | (13.116.853) | (7.014.293)",
+  "net_kar": "Sürdürülen faaliyetler dönem karı | 436.786.027 | 433.683.244"
+ }
+}

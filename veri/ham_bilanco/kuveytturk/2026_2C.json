@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "kuveytturk",
+ "donem": "2026_2C",
+ "dosya": "2026_2C_Kuveyt_Turk_Konsolide.pdf",
+ "sayfa": 10,
+ "satir": "I.       KATILIM FONU                                      (5.2.1.)           407,127        614,703          1,021,830      365,051     569,458        934,509",
+ "birim": "bin TL",
+ "kaynak_birim": "milyon TL",
+ "cari": {
+  "tp": 407127000,
+  "yp": 614703000,
+  "toplam": 1021830000
+ },
+ "onceki_yil_sonu": {
+  "tp": 365051000,
+  "yp": 569458000,
+  "toplam": 934509000
+ }
+}

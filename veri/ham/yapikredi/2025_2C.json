@@ -1,0 +1,41 @@
+{
+ "durum": "ok",
+ "banka": "yapikredi",
+ "donem": "2025_2C",
+ "dosya": "2025_2C_Yapi_Kredi_Bankasi_Konsolide.pdf",
+ "sayfa": 12,
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari_birikimli": {
+  "faiz_geliri": 281229569,
+  "faiz_gideri": 216274811,
+  "net_faiz": 64954758,
+  "net_ucret_komisyon": 52153811,
+  "alinan_ucret_komisyon": 76280180,
+  "alinan_gayrinakdi": 2928890,
+  "alinan_diger": 73351290,
+  "verilen_ucret_komisyon": 24126369
+ },
+ "onceki_yil_birikimli": {
+  "faiz_geliri": 211877282,
+  "faiz_gideri": 166404444,
+  "net_faiz": 45472838,
+  "net_ucret_komisyon": 35958031,
+  "alinan_ucret_komisyon": 54033264,
+  "alinan_gayrinakdi": 2388924,
+  "alinan_diger": 51644340,
+  "verilen_ucret_komisyon": 18075233
+ },
+ "cari_ceyrek": null,
+ "onceki_yil_ceyrek": null,
+ "satirlar": {
+  "faiz_geliri": "I.          FAİZ GELİRLERİ                                                                               4.1       281.229.569       211.877.282",
+  "faiz_gideri": "II.         FAİZ GİDERLERİ (-)                                                                           4.2       216.274.811       166.404.444",
+  "net_faiz": "III.        NET FAİZ GELİRİ/GİDERİ (I - II)                                                                          64.954.758       45.472.838",
+  "net_ucret_komisyon": "IV.         NET ÜCRET VE KOMİSYON GELİRLERİ/GİDERLERİ                                                                52.153.811       35.958.031",
+  "alinan_ucret_komisyon": "4.1         Alınan Ücret ve Komisyonlar                                                                              76.280.180       54.033.264",
+  "alinan_gayrinakdi": "4.1.1       Gayri Nakdi Kredilerden                                                                                   2.928.890        2.388.924",
+  "alinan_diger": "4.1.2       Diğer                                                                                       4.11         73.351.290       51.644.340",
+  "verilen_ucret_komisyon": "4.2         Verilen Ücret ve Komisyonlar (-)                                                                         24.126.369       18.075.233"
+ }
+}

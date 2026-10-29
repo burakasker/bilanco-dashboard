@@ -1,0 +1,2241 @@
+{
+ "tur": "banka",
+ "uretim": "2026-10-21T14:09:43.429Z",
+ "donem": "2026 2Ç",
+ "model": "anthropic/claude-sonnet-5.5",
+ "veri_izi": "6e255fd2d9537df9cd9ea1b9daba49359ebeb681a49e3c611797153c20308c9a",
+ "deneme": 2,
+ "olgu_sayisi": 232,
+ "bolumler": [
+  {
+   "baslik": "Sektör eğilimi",
+   "maddeler": [
+    {
+     "metin": "Net faiz geliri 344 milyar TL; çeyreklikte %0,9, yıllıkta %68 arttı. Ücret-komisyon 209,2 milyar TL, çeyreklikte %11,6 arttı. Çeyreklik ivmeyi ücretler taşıdı.",
+     "olgular": [
+      "sektor.net_faiz.tutar",
+      "sektor.net_faiz.ceyreklik",
+      "sektor.net_faiz.yillik",
+      "sektor.ucret.tutar",
+      "sektor.ucret.ceyreklik"
+     ]
+    },
+    {
+     "metin": "Ücret payı %37,8 ile geçen yıla göre 5,7 puan geriledi, karma net faize kayıyor. Mevduat 15.883,7 milyar TL, çeyreklikte %7 büyüdü.",
+     "olgular": [
+      "sektor.ucret_payi",
+      "sektor.ucret_payi.yillik_puan",
+      "sektor.mevduat.tutar",
+      "sektor.mevduat.ceyreklik"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "İvme değişimi",
+   "maddeler": [
+    {
+     "metin": "Hızlananlar: Akbank net faiz büyümesi %118'den %121,1'e çıktı. DenizBank ücret-komisyon büyümesi %40'tan %49,5'e, mevduat büyümesi %4'ten %10,7'ye yükseldi.",
+     "olgular": [
+      "ivme.akbank.net_faiz.n2",
+      "ivme.akbank.net_faiz.n0",
+      "ivme.denizbank.ucret.n2",
+      "ivme.denizbank.ucret.n0",
+      "ivme.denizbank.mevduat.n2",
+      "ivme.denizbank.mevduat.n0"
+     ]
+    },
+    {
+     "metin": "Yavaşlayanlar: net faiz büyümesi Yapı Kredi'de %103'ten %68,3'e, İş Bankası'nda %154,3'ten %77,2'ye, Garanti BBVA'da %83,4'ten %57,3'e geriledi.",
+     "olgular": [
+      "ivme.yapikredi.net_faiz.n2",
+      "ivme.yapikredi.net_faiz.n0",
+      "ivme.isbank.net_faiz.n2",
+      "ivme.isbank.net_faiz.n0",
+      "ivme.garanti.net_faiz.n2",
+      "ivme.garanti.net_faiz.n0"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Öne çıkanlar ve geride kalanlar",
+   "maddeler": [
+    {
+     "metin": "Garanti BBVA net faizde (67,7 milyar TL) ve ücret-komisyonda (47,9 milyar TL) birinci. Büyümede Akbank net faizle %121,1, Kuveyt Türk ücret-komisyonla %81,1 ile önde.",
+     "olgular": [
+      "siralama.net_faiz.tutar.garanti",
+      "siralama.net_faiz.sira.garanti",
+      "siralama.ucret.tutar.garanti",
+      "siralama.ucret.sira.garanti",
+      "siralama.net_faiz.yillik.akbank",
+      "siralama.net_faiz.yillik_sira.akbank",
+      "siralama.ucret.yillik.kuveytturk",
+      "siralama.ucret.yillik_sira.kuveytturk"
+     ]
+    },
+    {
+     "metin": "QNB net faiz (%44,2) ve mevduat (%11,2) yıllık büyümesinde sonuncu. Yapı Kredi ücret-komisyon büyümesinde %18,8 ile sonuncu; gelirde sırası bir basamak düşüp 4. oldu.",
+     "olgular": [
+      "siralama.net_faiz.yillik.qnb",
+      "siralama.net_faiz.yillik_sira.qnb",
+      "siralama.mevduat.yillik.qnb",
+      "siralama.mevduat.yillik_sira.qnb",
+      "siralama.ucret.yillik.yapikredi",
+      "siralama.ucret.yillik_sira.yapikredi",
+      "siralama.ucret.sira.yapikredi",
+      "siralama.ucret.sira_degisim.yapikredi"
+     ]
+    }
+   ]
+  },
+  {
+   "baslik": "Dikkat edilecek noktalar",
+   "maddeler": [
+    {
+     "metin": "Kuveyt Türk mevduatı çeyreklikte %0,6 azaldı, banka grubun genelinden ayrıştı. Ücret-komisyon büyümesi %81,1 ile diğer bankaların çok üstünde, aykırı değer sayılmalı.",
+     "olgular": [
+      "dikkat.mevduat_azalis.kuveytturk",
+      "dikkat.aykiri.mevduat.kuveytturk",
+      "dikkat.aykiri.ucret.kuveytturk"
+     ]
+    },
+    {
+     "metin": "Garanti BBVA önceki dönem net faizini %3 aşağı, TEB ücret-komisyonu %1,9 yukarı yeniden düzenledi; oranlar etkilenebilir. QNB'de Enpara bölünmesi (2025 3Ç) mevduat karşılaştırmasını bozar.",
+     "olgular": [
+      "dikkat.yeniden.garanti.net_faiz.2026_2C",
+      "dikkat.yeniden.teb.net_ucret_komisyon.2026_2C",
+      "dikkat.olay.qnb.2025_3C"
+     ]
+    }
+   ]
+  }
+ ],
+ "olgular": [
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.net_faiz.tutar",
+   "baslik": "sektor",
+   "aciklama": "8 bankanın toplam net faiz geliri, 2026 2Ç",
+   "deger": 344,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.net_faiz.ceyreklik",
+   "baslik": "sektor",
+   "aciklama": "Toplam net faiz geliri, önceki çeyreğe göre değişim",
+   "deger": 0.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.net_faiz.yillik",
+   "baslik": "sektor",
+   "aciklama": "Toplam net faiz geliri, geçen yılın aynı çeyreğine göre değişim",
+   "deger": 68.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.ucret.tutar",
+   "baslik": "sektor",
+   "aciklama": "8 bankanın toplam net ücret-komisyon geliri, 2026 2Ç",
+   "deger": 209.2,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.ucret.ceyreklik",
+   "baslik": "sektor",
+   "aciklama": "Toplam net ücret-komisyon geliri, önceki çeyreğe göre değişim",
+   "deger": 11.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.ucret.yillik",
+   "baslik": "sektor",
+   "aciklama": "Toplam net ücret-komisyon geliri, geçen yılın aynı çeyreğine göre değişim",
+   "deger": 32.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.ucret_payi",
+   "baslik": "sektor",
+   "aciklama": "Ücret-komisyonun (net faiz + ücret-komisyon) içindeki payı, 2026 2Ç",
+   "deger": 37.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.ucret_payi.yillik_puan",
+   "baslik": "sektor",
+   "aciklama": "Ücret-komisyon payının geçen yılın aynı çeyreğine göre değişimi",
+   "deger": -5.7,
+   "birim": "puan"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.mevduat.tutar",
+   "baslik": "sektor",
+   "aciklama": "8 bankanın toplam mevduatı, 2026 2Ç sonu",
+   "deger": 15883.7,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.mevduat.ceyreklik",
+   "baslik": "sektor",
+   "aciklama": "Toplam mevduatın önceki çeyrek sonuna göre büyümesi",
+   "deger": 7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "sektor.mevduat.yillik",
+   "baslik": "sektor",
+   "aciklama": "Toplam mevduatın bir yıl önceki çeyrek sonuna göre büyümesi",
+   "deger": 29.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.yapikredi.net_faiz.n2",
+   "baslik": "ivme",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net faiz geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 103,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.yapikredi.net_faiz.n1",
+   "baslik": "ivme",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net faiz geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 95.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.yapikredi.net_faiz.n0",
+   "baslik": "ivme",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net faiz geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 68.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.yapikredi.net_faiz.yon",
+   "baslik": "ivme",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net faiz geliri yıllık büyümesi son üç çeyrektir yavaşlıyor",
+   "deger": "yavaşlıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.yapikredi.ucret.n2",
+   "baslik": "ivme",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net ücret-komisyon geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 49.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.yapikredi.ucret.n1",
+   "baslik": "ivme",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net ücret-komisyon geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 34.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.yapikredi.ucret.n0",
+   "baslik": "ivme",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net ücret-komisyon geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 18.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.yapikredi.ucret.yon",
+   "baslik": "ivme",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net ücret-komisyon geliri yıllık büyümesi son üç çeyrektir yavaşlıyor",
+   "deger": "yavaşlıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.yapikredi.mevduat.n2",
+   "baslik": "ivme",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi mevduat çeyreklik büyümesi, 2025 4Ç",
+   "deger": 9.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.yapikredi.mevduat.n1",
+   "baslik": "ivme",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi mevduat çeyreklik büyümesi, 2026 1Ç",
+   "deger": 3.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.yapikredi.mevduat.n0",
+   "baslik": "ivme",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi mevduat çeyreklik büyümesi, 2026 2Ç",
+   "deger": 7.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.akbank.net_faiz.n2",
+   "baslik": "ivme",
+   "banka": "akbank",
+   "aciklama": "Akbank net faiz geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 118,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.akbank.net_faiz.n1",
+   "baslik": "ivme",
+   "banka": "akbank",
+   "aciklama": "Akbank net faiz geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 120.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.akbank.net_faiz.n0",
+   "baslik": "ivme",
+   "banka": "akbank",
+   "aciklama": "Akbank net faiz geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 121.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.akbank.net_faiz.yon",
+   "baslik": "ivme",
+   "banka": "akbank",
+   "aciklama": "Akbank net faiz geliri yıllık büyümesi son üç çeyrektir hızlanıyor",
+   "deger": "hızlanıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.akbank.ucret.n2",
+   "baslik": "ivme",
+   "banka": "akbank",
+   "aciklama": "Akbank net ücret-komisyon geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 58.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.akbank.ucret.n1",
+   "baslik": "ivme",
+   "banka": "akbank",
+   "aciklama": "Akbank net ücret-komisyon geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 35,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.akbank.ucret.n0",
+   "baslik": "ivme",
+   "banka": "akbank",
+   "aciklama": "Akbank net ücret-komisyon geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 34.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.akbank.ucret.yon",
+   "baslik": "ivme",
+   "banka": "akbank",
+   "aciklama": "Akbank net ücret-komisyon geliri yıllık büyümesi son üç çeyrektir yavaşlıyor",
+   "deger": "yavaşlıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.akbank.mevduat.n2",
+   "baslik": "ivme",
+   "banka": "akbank",
+   "aciklama": "Akbank mevduat çeyreklik büyümesi, 2025 4Ç",
+   "deger": 7.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.akbank.mevduat.n1",
+   "baslik": "ivme",
+   "banka": "akbank",
+   "aciklama": "Akbank mevduat çeyreklik büyümesi, 2026 1Ç",
+   "deger": 6.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.akbank.mevduat.n0",
+   "baslik": "ivme",
+   "banka": "akbank",
+   "aciklama": "Akbank mevduat çeyreklik büyümesi, 2026 2Ç",
+   "deger": 8.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.net_faiz.n2",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net faiz geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 154.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.net_faiz.n1",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net faiz geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 86.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.net_faiz.n0",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net faiz geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 77.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.net_faiz.yon",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net faiz geliri yıllık büyümesi son üç çeyrektir yavaşlıyor",
+   "deger": "yavaşlıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.ucret.n2",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net ücret-komisyon geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 46.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.ucret.n1",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net ücret-komisyon geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 42.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.ucret.n0",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net ücret-komisyon geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 38.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.ucret.yon",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net ücret-komisyon geliri yıllık büyümesi son üç çeyrektir yavaşlıyor",
+   "deger": "yavaşlıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.mevduat.n2",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası mevduat çeyreklik büyümesi, 2025 4Ç",
+   "deger": 8.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.mevduat.n1",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası mevduat çeyreklik büyümesi, 2026 1Ç",
+   "deger": 5.4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.mevduat.n0",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası mevduat çeyreklik büyümesi, 2026 2Ç",
+   "deger": 3.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.isbank.mevduat.yon",
+   "baslik": "ivme",
+   "banka": "isbank",
+   "aciklama": "İş Bankası mevduat çeyreklik büyümesi son üç çeyrektir yavaşlıyor",
+   "deger": "yavaşlıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.garanti.net_faiz.n2",
+   "baslik": "ivme",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net faiz geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 83.4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.garanti.net_faiz.n1",
+   "baslik": "ivme",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net faiz geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 81.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.garanti.net_faiz.n0",
+   "baslik": "ivme",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net faiz geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 57.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.garanti.net_faiz.yon",
+   "baslik": "ivme",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net faiz geliri yıllık büyümesi son üç çeyrektir yavaşlıyor",
+   "deger": "yavaşlıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.garanti.ucret.n2",
+   "baslik": "ivme",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net ücret-komisyon geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 41,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.garanti.ucret.n1",
+   "baslik": "ivme",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net ücret-komisyon geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 41.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.garanti.ucret.n0",
+   "baslik": "ivme",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net ücret-komisyon geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 36.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.garanti.mevduat.n2",
+   "baslik": "ivme",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA mevduat çeyreklik büyümesi, 2025 4Ç",
+   "deger": 8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.garanti.mevduat.n1",
+   "baslik": "ivme",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA mevduat çeyreklik büyümesi, 2026 1Ç",
+   "deger": 0.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.garanti.mevduat.n0",
+   "baslik": "ivme",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA mevduat çeyreklik büyümesi, 2026 2Ç",
+   "deger": 9.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.teb.net_faiz.n2",
+   "baslik": "ivme",
+   "banka": "teb",
+   "aciklama": "TEB net faiz geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 60.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.teb.net_faiz.n1",
+   "baslik": "ivme",
+   "banka": "teb",
+   "aciklama": "TEB net faiz geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 70.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.teb.net_faiz.n0",
+   "baslik": "ivme",
+   "banka": "teb",
+   "aciklama": "TEB net faiz geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 62.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.teb.ucret.n2",
+   "baslik": "ivme",
+   "banka": "teb",
+   "aciklama": "TEB net ücret-komisyon geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 42.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.teb.ucret.n1",
+   "baslik": "ivme",
+   "banka": "teb",
+   "aciklama": "TEB net ücret-komisyon geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 34.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.teb.ucret.n0",
+   "baslik": "ivme",
+   "banka": "teb",
+   "aciklama": "TEB net ücret-komisyon geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 27.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.teb.ucret.yon",
+   "baslik": "ivme",
+   "banka": "teb",
+   "aciklama": "TEB net ücret-komisyon geliri yıllık büyümesi son üç çeyrektir yavaşlıyor",
+   "deger": "yavaşlıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.teb.mevduat.n2",
+   "baslik": "ivme",
+   "banka": "teb",
+   "aciklama": "TEB mevduat çeyreklik büyümesi, 2025 4Ç",
+   "deger": 1.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.teb.mevduat.n1",
+   "baslik": "ivme",
+   "banka": "teb",
+   "aciklama": "TEB mevduat çeyreklik büyümesi, 2026 1Ç",
+   "deger": 2.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.teb.mevduat.n0",
+   "baslik": "ivme",
+   "banka": "teb",
+   "aciklama": "TEB mevduat çeyreklik büyümesi, 2026 2Ç",
+   "deger": 7.4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.teb.mevduat.yon",
+   "baslik": "ivme",
+   "banka": "teb",
+   "aciklama": "TEB mevduat çeyreklik büyümesi son üç çeyrektir hızlanıyor",
+   "deger": "hızlanıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.qnb.net_faiz.n2",
+   "baslik": "ivme",
+   "banka": "qnb",
+   "aciklama": "QNB net faiz geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 56.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.qnb.net_faiz.n1",
+   "baslik": "ivme",
+   "banka": "qnb",
+   "aciklama": "QNB net faiz geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 43.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.qnb.net_faiz.n0",
+   "baslik": "ivme",
+   "banka": "qnb",
+   "aciklama": "QNB net faiz geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 44.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.qnb.ucret.n2",
+   "baslik": "ivme",
+   "banka": "qnb",
+   "aciklama": "QNB net ücret-komisyon geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 28,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.qnb.ucret.n1",
+   "baslik": "ivme",
+   "banka": "qnb",
+   "aciklama": "QNB net ücret-komisyon geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 20.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.qnb.ucret.n0",
+   "baslik": "ivme",
+   "banka": "qnb",
+   "aciklama": "QNB net ücret-komisyon geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 20.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.qnb.ucret.yon",
+   "baslik": "ivme",
+   "banka": "qnb",
+   "aciklama": "QNB net ücret-komisyon geliri yıllık büyümesi son üç çeyrektir yavaşlıyor",
+   "deger": "yavaşlıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.qnb.mevduat.n2",
+   "baslik": "ivme",
+   "banka": "qnb",
+   "aciklama": "QNB mevduat çeyreklik büyümesi, 2025 4Ç",
+   "deger": 11.4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.qnb.mevduat.n1",
+   "baslik": "ivme",
+   "banka": "qnb",
+   "aciklama": "QNB mevduat çeyreklik büyümesi, 2026 1Ç",
+   "deger": 4.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.qnb.mevduat.n0",
+   "baslik": "ivme",
+   "banka": "qnb",
+   "aciklama": "QNB mevduat çeyreklik büyümesi, 2026 2Ç",
+   "deger": 6.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.denizbank.net_faiz.n2",
+   "baslik": "ivme",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net faiz geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 69.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.denizbank.net_faiz.n1",
+   "baslik": "ivme",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net faiz geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 68.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.denizbank.net_faiz.n0",
+   "baslik": "ivme",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net faiz geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 78.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.denizbank.ucret.n2",
+   "baslik": "ivme",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net ücret-komisyon geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 40,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.denizbank.ucret.n1",
+   "baslik": "ivme",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net ücret-komisyon geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 48.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.denizbank.ucret.n0",
+   "baslik": "ivme",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net ücret-komisyon geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 49.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.denizbank.ucret.yon",
+   "baslik": "ivme",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net ücret-komisyon geliri yıllık büyümesi son üç çeyrektir hızlanıyor",
+   "deger": "hızlanıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.denizbank.mevduat.n2",
+   "baslik": "ivme",
+   "banka": "denizbank",
+   "aciklama": "DenizBank mevduat çeyreklik büyümesi, 2025 4Ç",
+   "deger": 4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.denizbank.mevduat.n1",
+   "baslik": "ivme",
+   "banka": "denizbank",
+   "aciklama": "DenizBank mevduat çeyreklik büyümesi, 2026 1Ç",
+   "deger": 9.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.denizbank.mevduat.n0",
+   "baslik": "ivme",
+   "banka": "denizbank",
+   "aciklama": "DenizBank mevduat çeyreklik büyümesi, 2026 2Ç",
+   "deger": 10.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.denizbank.mevduat.yon",
+   "baslik": "ivme",
+   "banka": "denizbank",
+   "aciklama": "DenizBank mevduat çeyreklik büyümesi son üç çeyrektir hızlanıyor",
+   "deger": "hızlanıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.kuveytturk.net_faiz.n2",
+   "baslik": "ivme",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net faiz geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 39.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.kuveytturk.net_faiz.n1",
+   "baslik": "ivme",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net faiz geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 66.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.kuveytturk.net_faiz.n0",
+   "baslik": "ivme",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net faiz geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 48.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.kuveytturk.ucret.n2",
+   "baslik": "ivme",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net ücret-komisyon geliri yıllık büyümesi, 2025 4Ç",
+   "deger": 49.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.kuveytturk.ucret.n1",
+   "baslik": "ivme",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net ücret-komisyon geliri yıllık büyümesi, 2026 1Ç",
+   "deger": 83.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.kuveytturk.ucret.n0",
+   "baslik": "ivme",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net ücret-komisyon geliri yıllık büyümesi, 2026 2Ç",
+   "deger": 81.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.kuveytturk.mevduat.n2",
+   "baslik": "ivme",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk mevduat çeyreklik büyümesi, 2025 4Ç",
+   "deger": 15.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.kuveytturk.mevduat.n1",
+   "baslik": "ivme",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk mevduat çeyreklik büyümesi, 2026 1Ç",
+   "deger": 10,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.kuveytturk.mevduat.n0",
+   "baslik": "ivme",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk mevduat çeyreklik büyümesi, 2026 2Ç",
+   "deger": -0.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "ivme.kuveytturk.mevduat.yon",
+   "baslik": "ivme",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk mevduat çeyreklik büyümesi son üç çeyrektir yavaşlıyor",
+   "deger": "yavaşlıyor",
+   "birim": "durum"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.tutar.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net faiz geliri, 2026 2Ç",
+   "deger": 59.3,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.sira.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net faiz geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 2)",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net faiz geliri yıllık büyümesi",
+   "deger": 68.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik_sira.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net faiz geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.tutar.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank net faiz geliri, 2026 2Ç",
+   "deger": 44.9,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.sira.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank net faiz geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 4)",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank net faiz geliri yıllık büyümesi",
+   "deger": 121.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik_sira.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank net faiz geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.tutar.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net faiz geliri, 2026 2Ç",
+   "deger": 49.8,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.sira.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net faiz geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 3)",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net faiz geliri yıllık büyümesi",
+   "deger": 77.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik_sira.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net faiz geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.tutar.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net faiz geliri, 2026 2Ç",
+   "deger": 67.7,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.sira.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net faiz geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 1)",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net faiz geliri yıllık büyümesi",
+   "deger": 57.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik_sira.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net faiz geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.tutar.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB net faiz geliri, 2026 2Ç",
+   "deger": 16.9,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.sira.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB net faiz geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 8)",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB net faiz geliri yıllık büyümesi",
+   "deger": 62.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik_sira.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB net faiz geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.tutar.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB net faiz geliri, 2026 2Ç",
+   "deger": 37.9,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.sira.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB net faiz geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 6)",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.sira_degisim.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB net faiz geliri sırasında önceki çeyreğe göre değişim (pozitif = yükseldi)",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB net faiz geliri yıllık büyümesi",
+   "deger": 44.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik_sira.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB net faiz geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.tutar.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net faiz geliri, 2026 2Ç",
+   "deger": 37.4,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.sira.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net faiz geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 5)",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.sira_degisim.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net faiz geliri sırasında önceki çeyreğe göre değişim (pozitif = yükseldi)",
+   "deger": -1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net faiz geliri yıllık büyümesi",
+   "deger": 78.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik_sira.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net faiz geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.tutar.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net faiz geliri, 2026 2Ç",
+   "deger": 30,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.sira.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net faiz geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 7)",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net faiz geliri yıllık büyümesi",
+   "deger": 48.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.net_faiz.yillik_sira.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net faiz geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.tutar.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net ücret-komisyon geliri, 2026 2Ç",
+   "deger": 33.3,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net ücret-komisyon geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 3)",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira_degisim.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net ücret-komisyon geliri sırasında önceki çeyreğe göre değişim (pozitif = yükseldi)",
+   "deger": -1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net ücret-komisyon geliri yıllık büyümesi",
+   "deger": 18.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik_sira.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi net ücret-komisyon geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.tutar.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank net ücret-komisyon geliri, 2026 2Ç",
+   "deger": 36.7,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank net ücret-komisyon geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 4)",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira_degisim.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank net ücret-komisyon geliri sırasında önceki çeyreğe göre değişim (pozitif = yükseldi)",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank net ücret-komisyon geliri yıllık büyümesi",
+   "deger": 34.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik_sira.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank net ücret-komisyon geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.tutar.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net ücret-komisyon geliri, 2026 2Ç",
+   "deger": 41.4,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net ücret-komisyon geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 2)",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net ücret-komisyon geliri yıllık büyümesi",
+   "deger": 38.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik_sira.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası net ücret-komisyon geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.tutar.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net ücret-komisyon geliri, 2026 2Ç",
+   "deger": 47.9,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net ücret-komisyon geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 1)",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net ücret-komisyon geliri yıllık büyümesi",
+   "deger": 36.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik_sira.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA net ücret-komisyon geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.tutar.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB net ücret-komisyon geliri, 2026 2Ç",
+   "deger": 5.4,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB net ücret-komisyon geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 7)",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira_degisim.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB net ücret-komisyon geliri sırasında önceki çeyreğe göre değişim (pozitif = yükseldi)",
+   "deger": -1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB net ücret-komisyon geliri yıllık büyümesi",
+   "deger": 27.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik_sira.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB net ücret-komisyon geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.tutar.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB net ücret-komisyon geliri, 2026 2Ç",
+   "deger": 24,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB net ücret-komisyon geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 5)",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB net ücret-komisyon geliri yıllık büyümesi",
+   "deger": 20.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik_sira.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB net ücret-komisyon geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.tutar.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net ücret-komisyon geliri, 2026 2Ç",
+   "deger": 14.7,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net ücret-komisyon geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 6)",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net ücret-komisyon geliri yıllık büyümesi",
+   "deger": 49.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik_sira.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank net ücret-komisyon geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.tutar.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net ücret-komisyon geliri, 2026 2Ç",
+   "deger": 5.9,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net ücret-komisyon geliri büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 8)",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.sira_degisim.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net ücret-komisyon geliri sırasında önceki çeyreğe göre değişim (pozitif = yükseldi)",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net ücret-komisyon geliri yıllık büyümesi",
+   "deger": 81.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret.yillik_sira.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net ücret-komisyon geliri yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.tutar.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi mevduat, 2026 2Ç",
+   "deger": 2185.1,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.sira.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi mevduat büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 4)",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi mevduat yıllık büyümesi",
+   "deger": 31.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik_sira.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi mevduat yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.tutar.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank mevduat, 2026 2Ç",
+   "deger": 2511.1,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.sira.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank mevduat büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 3)",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank mevduat yıllık büyümesi",
+   "deger": 32.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik_sira.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank mevduat yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.tutar.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası mevduat, 2026 2Ç",
+   "deger": 3472.3,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.sira.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası mevduat büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 1)",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası mevduat yıllık büyümesi",
+   "deger": 28.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik_sira.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası mevduat yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.tutar.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA mevduat, 2026 2Ç",
+   "deger": 3466.1,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.sira.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA mevduat büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 2)",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA mevduat yıllık büyümesi",
+   "deger": 29.3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik_sira.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA mevduat yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.tutar.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB mevduat, 2026 2Ç",
+   "deger": 559.4,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.sira.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB mevduat büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 8)",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB mevduat yıllık büyümesi",
+   "deger": 14.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik_sira.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB mevduat yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.tutar.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB mevduat, 2026 2Ç",
+   "deger": 1116.1,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.sira.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB mevduat büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 6)",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB mevduat yıllık büyümesi",
+   "deger": 11.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik_sira.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB mevduat yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.tutar.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank mevduat, 2026 2Ç",
+   "deger": 1551.7,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.sira.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank mevduat büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 5)",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank mevduat yıllık büyümesi",
+   "deger": 34.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik_sira.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank mevduat yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.tutar.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk mevduat, 2026 2Ç",
+   "deger": 1021.8,
+   "birim": "mlr TL"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.sira.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk mevduat büyüklüğünde 8 banka içinde sıra (önceki çeyrek: 7)",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk mevduat yıllık büyümesi",
+   "deger": 42.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.mevduat.yillik_sira.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk mevduat yıllık büyümesinde 8 banka içinde sıra",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi ücret-komisyon payı, 2026 2Ç",
+   "deger": 36,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi_sira.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi ücret-komisyon payında 8 banka içinde sıra",
+   "deger": 5,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank ücret-komisyon payı, 2026 2Ç",
+   "deger": 45,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi_sira.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank ücret-komisyon payında 8 banka içinde sıra",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası ücret-komisyon payı, 2026 2Ç",
+   "deger": 45.4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi_sira.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası ücret-komisyon payında 8 banka içinde sıra",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA ücret-komisyon payı, 2026 2Ç",
+   "deger": 41.4,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi_sira.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA ücret-komisyon payında 8 banka içinde sıra",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB ücret-komisyon payı, 2026 2Ç",
+   "deger": 24,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi_sira.teb",
+   "baslik": "siralama",
+   "banka": "teb",
+   "aciklama": "TEB ücret-komisyon payında 8 banka içinde sıra",
+   "deger": 7,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB ücret-komisyon payı, 2026 2Ç",
+   "deger": 38.7,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi_sira.qnb",
+   "baslik": "siralama",
+   "banka": "qnb",
+   "aciklama": "QNB ücret-komisyon payında 8 banka içinde sıra",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank ücret-komisyon payı, 2026 2Ç",
+   "deger": 28.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi_sira.denizbank",
+   "baslik": "siralama",
+   "banka": "denizbank",
+   "aciklama": "DenizBank ücret-komisyon payında 8 banka içinde sıra",
+   "deger": 6,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk ücret-komisyon payı, 2026 2Ç",
+   "deger": 16.5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.ucret_payi_sira.kuveytturk",
+   "baslik": "siralama",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk ücret-komisyon payında 8 banka içinde sıra",
+   "deger": 8,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.yatirim_payi.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank yatırım hizmetlerinin (Wealth Management) ücret-komisyon içindeki payı, sunumdan, 2026 2Ç",
+   "deger": 9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.yatirim_payi_sira.akbank",
+   "baslik": "siralama",
+   "banka": "akbank",
+   "aciklama": "Akbank yatırım hizmetleri payında, bu payı açıklayan 4 banka içinde sıra",
+   "deger": 2,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.yatirim_payi.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası yatırım hizmetlerinin (Asset Management) ücret-komisyon içindeki payı, sunumdan, 2026 2Ç",
+   "deger": 7.8,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.yatirim_payi_sira.isbank",
+   "baslik": "siralama",
+   "banka": "isbank",
+   "aciklama": "İş Bankası yatırım hizmetleri payında, bu payı açıklayan 4 banka içinde sıra",
+   "deger": 3,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.yatirim_payi.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA yatırım hizmetlerinin (Brokerage + AM) ücret-komisyon içindeki payı, sunumdan, 2026 2Ç",
+   "deger": 10.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.yatirim_payi_sira.garanti",
+   "baslik": "siralama",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA yatırım hizmetleri payında, bu payı açıklayan 4 banka içinde sıra",
+   "deger": 1,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.yatirim_payi.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi yatırım hizmetlerinin (Investment Products) ücret-komisyon içindeki payı, sunumdan, 2026 2Ç",
+   "deger": 5,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "siralama.yatirim_payi_sira.yapikredi",
+   "baslik": "siralama",
+   "banka": "yapikredi",
+   "aciklama": "Yapı Kredi yatırım hizmetleri payında, bu payı açıklayan 4 banka içinde sıra",
+   "deger": 4,
+   "birim": "sıra"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.mevduat_azalis.kuveytturk",
+   "baslik": "dikkat",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk mevduatı 2026 2Ç'de önceki çeyreğe göre azaldı",
+   "deger": -0.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.aykiri.net_faiz.akbank",
+   "baslik": "dikkat",
+   "banka": "akbank",
+   "aciklama": "Akbank net faiz geliri yıllık büyümesi 8 bankanın ortancasından (68.3%) belirgin ayrışıyor",
+   "deger": 121.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.aykiri.ucret.kuveytturk",
+   "baslik": "dikkat",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk net ücret-komisyon geliri yıllık büyümesi 8 bankanın ortancasından (36.5%) belirgin ayrışıyor",
+   "deger": 81.1,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.aykiri.mevduat.kuveytturk",
+   "baslik": "dikkat",
+   "banka": "kuveytturk",
+   "aciklama": "Kuveyt Türk mevduat çeyreklik büyümesi 8 bankanın ortancasından (7.8%) belirgin ayrışıyor",
+   "deger": -0.6,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.olay.qnb.2025_3C",
+   "baslik": "dikkat",
+   "banka": "qnb",
+   "aciklama": "QNB sunumuna göre Enpara faaliyetleri 2025/3Ç'de bölünmeyle ayrıldı; o çeyrekteki mevduat düşüşü organik değil.",
+   "deger": "2025 3Ç",
+   "birim": "dönem"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.yeniden.garanti.net_faiz.2026_1C",
+   "baslik": "dikkat",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA, 2026 1Ç raporunda önceki dönem net faiz rakamını yeniden düzenledi",
+   "deger": -2.9,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.yeniden.garanti.net_faiz.2026_2C",
+   "baslik": "dikkat",
+   "banka": "garanti",
+   "aciklama": "Garanti BBVA, 2026 2Ç raporunda önceki dönem net faiz rakamını yeniden düzenledi",
+   "deger": -3,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.yeniden.teb.net_ucret_komisyon.2026_1C",
+   "baslik": "dikkat",
+   "banka": "teb",
+   "aciklama": "TEB, 2026 1Ç raporunda önceki dönem ücret-komisyon rakamını yeniden düzenledi",
+   "deger": 2.2,
+   "birim": "%"
+  },
+  {
+   "donem": "2026 2Ç",
+   "id": "dikkat.yeniden.teb.net_ucret_komisyon.2026_2C",
+   "baslik": "dikkat",
+   "banka": "teb",
+   "aciklama": "TEB, 2026 2Ç raporunda önceki dönem ücret-komisyon rakamını yeniden düzenledi",
+   "deger": 1.9,
+   "birim": "%"
+  }
+ ],
+ "kullanim": [
+  {
+   "prompt_tokens": 19281,
+   "completion_tokens": 4479,
+   "total_tokens": 23760,
+   "cost": 0.083352,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.083352,
+    "upstream_inference_prompt_cost": 0.038562,
+    "upstream_inference_completions_cost": 0.04479
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 2709,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  {
+   "prompt_tokens": 21334,
+   "completion_tokens": 2198,
+   "total_tokens": 23532,
+   "cost": 0.064648,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.064648,
+    "upstream_inference_prompt_cost": 0.042668,
+    "upstream_inference_completions_cost": 0.02198
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 425,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ ]
+}

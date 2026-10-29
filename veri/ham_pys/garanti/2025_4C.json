@@ -1,0 +1,32 @@
+{
+ "durum": "ok",
+ "kod": "garanti",
+ "donem": "2025_4C",
+ "dosya": "2025_4C_Garanti_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 9,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 3357115338,
+   "onceki": 2002699958
+  },
+  "genel_yonetim": {
+   "cari": -727562857,
+   "onceki": -586283522
+  },
+  "pazarlama": {
+   "cari": -20577158,
+   "onceki": -10908612
+  },
+  "net_kar": {
+   "cari": 2026616462,
+   "onceki": 1045414018
+  }
+ },
+ "satirlar": {
+  "hasilat": "Hasılat | 14 | 3.357.115.338 | 2.002.699.958",
+  "genel_yonetim": "Genel Yönetim Giderleri (-) | 15 | (727.562.857) | (586.283.522)",
+  "pazarlama": "Pazarlama Giderleri (-) | 15 | (20.577.158) | (10.908.612)",
+  "net_kar": "DÖNEM KARI | 2.026.616.462 | 1.045.414.018"
+ }
+}

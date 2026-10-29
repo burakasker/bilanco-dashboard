@@ -1,0 +1,27 @@
+{
+ "durum": "ok",
+ "kod": "denizbank",
+ "donem": "2025_4C",
+ "dosya": "2025_4C_Deniz_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 9,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 2305209262,
+   "onceki": 1412013429
+  },
+  "genel_yonetim": {
+   "cari": -607448412,
+   "onceki": -400456641
+  },
+  "net_kar": {
+   "cari": 1259981300,
+   "onceki": 741937734
+  }
+ },
+ "satirlar": {
+  "hasilat": "Hasılat | 16 | 2.305.209.262 | 1.412.013.429",
+  "genel_yonetim": "Genel yönetim giderleri (-) | 21, 22 | (607.448.412) | (400.456.641)",
+  "net_kar": "Dönem karı | 1.259.981.300 | 741.937.734"
+ }
+}

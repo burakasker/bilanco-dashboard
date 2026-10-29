@@ -1,0 +1,41 @@
+{
+ "durum": "ok",
+ "banka": "teb",
+ "donem": "2025_4C",
+ "dosya": "2025_4C_TEB_Konsolide.pdf",
+ "sayfa": 18,
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari_birikimli": {
+  "faiz_geliri": 183946581,
+  "faiz_gideri": 137264499,
+  "net_faiz": 46682082,
+  "net_ucret_komisyon": 17022434,
+  "alinan_ucret_komisyon": 32811807,
+  "alinan_gayrinakdi": 1759459,
+  "alinan_diger": 31052348,
+  "verilen_ucret_komisyon": 15789373
+ },
+ "onceki_yil_birikimli": {
+  "faiz_geliri": 133992586,
+  "faiz_gideri": 103197782,
+  "net_faiz": 30794804,
+  "net_ucret_komisyon": 10794147,
+  "alinan_ucret_komisyon": 21273347,
+  "alinan_gayrinakdi": 1358212,
+  "alinan_diger": 19915135,
+  "verilen_ucret_komisyon": 10479200
+ },
+ "cari_ceyrek": null,
+ "onceki_yil_ceyrek": null,
+ "satirlar": {
+  "faiz_geliri": "I.     FAİZ GELİRLERİ                                                                                 (IV-1)                       183,946,581            133,992,586",
+  "faiz_gideri": "II.    FAİZ GİDERLERİ (-)                                                                              (IV-2)                      137,264,499            103,197,782",
+  "net_faiz": "III.   NET FAİZ GELİRİ /GİDERİ (I - II)                                                                                             46,682,082             30,794,804",
+  "net_ucret_komisyon": "IV.    NET ÜCRET VE KOMİSYON GELİRLERİ /GİDERLERİ                                                                                   17,022,434             10,794,147",
+  "alinan_ucret_komisyon": "4.1    Alınan Ücret ve Komisyonlar                                                                                                  32,811,807             21,273,347",
+  "alinan_gayrinakdi": "4.1.1  Gayri Nakdi Kredilerden                                                                                                        1,759,459              1,358,212",
+  "alinan_diger": "4.1.2  Diğer                                                                                          (IV-12)                       31,052,348             19,915,135",
+  "verilen_ucret_komisyon": "4.2    Verilen Ücret ve Komisyonlar (-)                                                                                             15,789,373             10,479,200"
+ }
+}

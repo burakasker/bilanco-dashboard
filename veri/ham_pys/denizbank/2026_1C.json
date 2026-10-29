@@ -1,0 +1,23 @@
+{
+ "durum": "ok",
+ "kod": "denizbank",
+ "donem": "2026_1C",
+ "dosya": "2026_1C_Deniz_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 4,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 669659567,
+   "onceki": 580103318
+  },
+  "genel_yonetim": {
+   "cari": -201156716,
+   "onceki": -161843372
+  },
+  "net_kar": {
+   "cari": 249101013,
+   "onceki": 268181992
+  }
+ },
+ "elle": "Taranmış PDF; görüntüden okundu, esas faaliyet ve dönem kârı denklikleriyle kontrol edildi."
+}

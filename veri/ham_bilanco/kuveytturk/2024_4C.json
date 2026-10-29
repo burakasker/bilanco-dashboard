@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "kuveytturk",
+ "donem": "2024_4C",
+ "dosya": "2024_4C_Kuveyt_Turk_Konsolide.pdf",
+ "sayfa": 13,
+ "satir": "I.        TOPLANAN FONLAR                                (5.2.1.)       281,068,615     323,332,072      604,400,687    240,190,712   277,945,733   518,136,445",
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari": {
+  "tp": 281068615,
+  "yp": 323332072,
+  "toplam": 604400687
+ },
+ "onceki_yil_sonu": {
+  "tp": 240190712,
+  "yp": 277945733,
+  "toplam": 518136445
+ }
+}

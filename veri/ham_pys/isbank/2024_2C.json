@@ -1,0 +1,40 @@
+{
+ "durum": "ok",
+ "kod": "isbank",
+ "donem": "2024_2C",
+ "dosya": "2024_2C_Is_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 6,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 706506681,
+   "cari_3ay": 398706742,
+   "onceki": 537609016,
+   "onceki_3ay": 300484227
+  },
+  "genel_yonetim": {
+   "cari": -309251462,
+   "cari_3ay": -145803515,
+   "onceki": -244017473,
+   "onceki_3ay": -112986264
+  },
+  "pazarlama": {
+   "cari": -14048908,
+   "cari_3ay": -10112225,
+   "onceki": -5687554,
+   "onceki_3ay": -3511134
+  },
+  "net_kar": {
+   "cari": 273178125,
+   "cari_3ay": 256303990,
+   "onceki": 163948602,
+   "onceki_3ay": 162631160
+  }
+ },
+ "satirlar": {
+  "hasilat": "Hasılat | 10 | 706.506.681 | 398.706.742 | 537.609.016 | 300.484.227",
+  "genel_yonetim": "Genel yönetim giderleri | 13 | (309.251.462) | (145.803.515) | (244.017.473) | (112.986.264)",
+  "pazarlama": "Pazarlama, satış ve dağıtım giderleri | (14.048.908) | (10.112.225) | (5.687.554) | (3.511.134)",
+  "net_kar": "DÖNEM KARI | 273.178.125 | 256.303.990 | 163.948.602 | 162.631.160"
+ }
+}

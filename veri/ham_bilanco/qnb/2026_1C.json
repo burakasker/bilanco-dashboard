@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "qnb",
+ "donem": "2026_1C",
+ "dosya": "2026_1C_QNB_Konsolide.pdf",
+ "sayfa": 10,
+ "satir": "I.       MEVDUAT                                                    (1)      631.996.235     411.837.039   1.043.833.274    630.670.674     369.862.841   1.000.533.515",
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari": {
+  "tp": 631996235,
+  "yp": 411837039,
+  "toplam": 1043833274
+ },
+ "onceki_yil_sonu": {
+  "tp": 630670674,
+  "yp": 369862841,
+  "toplam": 1000533515
+ }
+}

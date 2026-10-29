@@ -1,0 +1,27 @@
+{
+ "durum": "ok",
+ "kod": "akbank",
+ "donem": "2024_4C",
+ "dosya": "2024_4C_Ak_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 8,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 2736736706,
+   "onceki": 2190773045
+  },
+  "genel_yonetim": {
+   "cari": -799989088,
+   "onceki": -663126404
+  },
+  "net_kar": {
+   "cari": 1402056091,
+   "onceki": 848228755
+  }
+ },
+ "satirlar": {
+  "hasilat": "Finans sektörü faaliyetleri hasılatı | 15 | 2.736.736.706 | 2.190.773.045",
+  "genel_yonetim": "Genel yönetim giderleri (-) | 16 | (799.989.088) | (663.126.404)",
+  "net_kar": "Sürdürülen faaliyetler dönem karı | 1.402.056.091 | 848.228.755"
+ }
+}

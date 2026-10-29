@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "teb",
+ "donem": "2025_3C",
+ "dosya": "2025_3C_TEB_Konsolide.pdf",
+ "sayfa": 11,
+ "satir": "I.       MEVDUAT                                                                (II-1) 359,230,021 140,738,914          499,968,935 299,527,455 105,956,151 405,483,606",
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari": {
+  "tp": 359230021,
+  "yp": 140738914,
+  "toplam": 499968935
+ },
+ "onceki_yil_sonu": {
+  "tp": 299527455,
+  "yp": 105956151,
+  "toplam": 405483606
+ }
+}

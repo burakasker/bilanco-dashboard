@@ -1,0 +1,32 @@
+{
+ "durum": "ok",
+ "kod": "teb",
+ "donem": "2026_1C",
+ "dosya": "2026_1C_TEB_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 4,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 367862298,
+   "onceki": 349468596
+  },
+  "genel_yonetim": {
+   "cari": -151615892,
+   "onceki": -139599819
+  },
+  "pazarlama": {
+   "cari": -10625467,
+   "onceki": -11337701
+  },
+  "net_kar": {
+   "cari": 90557197,
+   "onceki": 117858005
+  }
+ },
+ "satirlar": {
+  "hasilat": "Finans sektörü faaliyetleri hasılatı | 14 | 367.862.298 | 349.468.596",
+  "genel_yonetim": "Genel yönetim giderleri (-) | 15 | (151.615.892) | (139.599.819)",
+  "pazarlama": "Pazarlama, satış ve dağıtım giderleri (-) | 15 | (10.625.467) | (11.337.701)",
+  "net_kar": "Sürdürülen faaliyetler net dönem karı | 90.557.197 | 117.858.005"
+ }
+}

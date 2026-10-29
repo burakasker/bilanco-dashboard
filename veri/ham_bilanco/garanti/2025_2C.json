@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "garanti",
+ "donem": "2025_2C",
+ "dosya": "2025_2C_Garanti_BBVA_Konsolide.pdf",
+ "sayfa": 12,
+ "satir": "I.       MEVDUAT                                                                                           5.2.1    1,467,851,480     1,212,197,495   2,680,048,975   1,251,197,662     903,149,980 2,154,347,642",
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari": {
+  "tp": 1467851480,
+  "yp": 1212197495,
+  "toplam": 2680048975
+ },
+ "onceki_yil_sonu": {
+  "tp": 1251197662,
+  "yp": 903149980,
+  "toplam": 2154347642
+ }
+}

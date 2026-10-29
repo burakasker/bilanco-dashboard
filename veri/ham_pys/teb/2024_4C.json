@@ -1,0 +1,32 @@
+{
+ "durum": "ok",
+ "kod": "teb",
+ "donem": "2024_4C",
+ "dosya": "2024_4C_TEB_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 9,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 803690784,
+   "onceki": 447345918
+  },
+  "genel_yonetim": {
+   "cari": -318155978,
+   "onceki": -235766926
+  },
+  "pazarlama": {
+   "cari": -25411116,
+   "onceki": -11870673
+  },
+  "net_kar": {
+   "cari": 325702776,
+   "onceki": 90711466
+  }
+ },
+ "satirlar": {
+  "hasilat": "Finans sektörü faaliyetleri hasılatı | 14 | 803.690.784 | 447.345.918",
+  "genel_yonetim": "Genel yönetim giderleri (-) | 15 | (318.155.978) | (235.766.926)",
+  "pazarlama": "Pazarlama, satış ve dağıtım giderleri (-) | 15 | (25.411.116) | (11.870.673)",
+  "net_kar": "Sürdürülen faaliyetler net dönem karı | 325.702.776 | 90.711.466"
+ }
+}

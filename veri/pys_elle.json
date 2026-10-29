@@ -1,0 +1,158 @@
+{
+ "akbank/2024_3C": {
+  "durum": "ok",
+  "kod": "akbank",
+  "donem": "2024_3C",
+  "dosya": "2024_3C_Ak_Portfoy_Konsolide_Olmayan.pdf",
+  "sayfa": 4,
+  "birim": "TL",
+  "kalemler": {
+   "hasilat": {
+    "cari": 1860167240,
+    "cari_3ay": 687703246,
+    "onceki": 1561023746,
+    "onceki_3ay": 503296044
+   },
+   "genel_yonetim": {
+    "cari": -555752043,
+    "cari_3ay": -165471306,
+    "onceki": -441227946,
+    "onceki_3ay": -150652668
+   },
+   "net_kar": {
+    "cari": 809595517,
+    "cari_3ay": 318590044,
+    "onceki": 559611453,
+    "onceki_3ay": -40960055
+   }
+  },
+  "elle": "Kâr satırının etiketi iki satıra bölündüğü için PDF metninden elle alındı."
+ },
+ "denizbank/2024_1C": {
+  "durum": "ok",
+  "kod": "denizbank",
+  "donem": "2024_1C",
+  "dosya": "2024_1C_Deniz_Portfoy_Konsolide_Olmayan.pdf",
+  "sayfa": 4,
+  "birim": "TL",
+  "kalemler": {
+   "hasilat": {
+    "cari": 128301162,
+    "onceki": 68585731
+   },
+   "genel_yonetim": {
+    "cari": -58453207,
+    "onceki": -31962628
+   },
+   "net_kar": {
+    "cari": 47655489,
+    "onceki": 13454124
+   }
+  },
+  "elle": "Taranmış PDF; görüntüden okundu, esas faaliyet ve dönem kârı denklikleriyle kontrol edildi."
+ },
+ "denizbank/2024_3C": {
+  "durum": "ok",
+  "kod": "denizbank",
+  "donem": "2024_3C",
+  "dosya": "2024_3C_Deniz_Portfoy_Konsolide_Olmayan.pdf",
+  "sayfa": 4,
+  "birim": "TL",
+  "kalemler": {
+   "hasilat": {
+    "cari": 659770091,
+    "cari_3ay": 283254163,
+    "onceki": 265328774,
+    "onceki_3ay": 98834773
+   },
+   "genel_yonetim": {
+    "cari": -198745063,
+    "cari_3ay": -70785246,
+    "onceki": -124558563,
+    "onceki_3ay": -31012915
+   },
+   "net_kar": {
+    "cari": 311590619,
+    "cari_3ay": 135560412,
+    "onceki": 104376589,
+    "onceki_3ay": 47261861
+   }
+  },
+  "elle": "Taranmış PDF; görüntüden okundu, esas faaliyet ve dönem kârı denklikleriyle kontrol edildi."
+ },
+ "denizbank/2025_1C": {
+  "durum": "ok",
+  "kod": "denizbank",
+  "donem": "2025_1C",
+  "dosya": "2025_1C_Deniz_Portfoy_Konsolide_Olmayan.pdf",
+  "sayfa": 4,
+  "birim": "TL",
+  "kalemler": {
+   "hasilat": {
+    "cari": 443282242,
+    "onceki": 177188818
+   },
+   "genel_yonetim": {
+    "cari": -123671578,
+    "onceki": -80726117
+   },
+   "net_kar": {
+    "cari": 204929555,
+    "onceki": 65814055
+   }
+  },
+  "elle": "Taranmış PDF; görüntüden okundu, esas faaliyet ve dönem kârı denklikleriyle kontrol edildi."
+ },
+ "denizbank/2025_3C": {
+  "durum": "ok",
+  "kod": "denizbank",
+  "donem": "2025_3C",
+  "dosya": "2025_3C_Deniz_Portfoy_Konsolide_Olmayan.pdf",
+  "sayfa": 4,
+  "birim": "TL",
+  "kalemler": {
+   "hasilat": {
+    "cari": 1592934272,
+    "cari_3ay": 587168152,
+    "onceki": 879434021,
+    "onceki_3ay": 377560837
+   },
+   "genel_yonetim": {
+    "cari": -421103108,
+    "cari_3ay": -150180525,
+    "onceki": -264915267,
+    "onceki_3ay": -94352494
+   },
+   "net_kar": {
+    "cari": 838388908,
+    "cari_3ay": 328414583,
+    "onceki": 415331635,
+    "onceki_3ay": 180693911
+   }
+  },
+  "elle": "Taranmış PDF; görüntüden okundu (bu raporda sütun sırası cari, önceki, cari 3 ay, önceki 3 ay), denkliklerle kontrol edildi."
+ },
+ "denizbank/2026_1C": {
+  "durum": "ok",
+  "kod": "denizbank",
+  "donem": "2026_1C",
+  "dosya": "2026_1C_Deniz_Portfoy_Konsolide_Olmayan.pdf",
+  "sayfa": 4,
+  "birim": "TL",
+  "kalemler": {
+   "hasilat": {
+    "cari": 669659567,
+    "onceki": 580103318
+   },
+   "genel_yonetim": {
+    "cari": -201156716,
+    "onceki": -161843372
+   },
+   "net_kar": {
+    "cari": 249101013,
+    "onceki": 268181992
+   }
+  },
+  "elle": "Taranmış PDF; görüntüden okundu, esas faaliyet ve dönem kârı denklikleriyle kontrol edildi."
+ }
+}

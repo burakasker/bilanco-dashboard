@@ -1,0 +1,40 @@
+{
+ "durum": "ok",
+ "kod": "teb",
+ "donem": "2026_2C",
+ "dosya": "2026_2C_TEB_Portfoy_Konsolide_Olmayan.pdf",
+ "sayfa": 5,
+ "birim": "TL",
+ "kalemler": {
+  "hasilat": {
+   "cari": 824508713,
+   "cari_3ay": 430844268,
+   "onceki": 669877771,
+   "onceki_3ay": 295897174
+  },
+  "genel_yonetim": {
+   "cari": -308515412,
+   "cari_3ay": -146265064,
+   "onceki": -273798999,
+   "onceki_3ay": -124826571
+  },
+  "pazarlama": {
+   "cari": -42018401,
+   "cari_3ay": -30647655,
+   "onceki": -19752780,
+   "onceki_3ay": -7619843
+  },
+  "net_kar": {
+   "cari": 284612962,
+   "cari_3ay": 187704014,
+   "onceki": 267509840,
+   "onceki_3ay": 103709500
+  }
+ },
+ "satirlar": {
+  "hasilat": "Finans sektörü faaliyetleri hasılatı | 14 | 824.508.713 | 430.844.268 | 669.877.771 | 295.897.174",
+  "genel_yonetim": "Genel yönetim giderleri (-) | 15 | (308.515.412) (146.265.064) (273.798.999) (124.826.571)",
+  "pazarlama": "Pazarlama, satış ve dağıtım giderleri (-) | 15 | (42.018.401) (30.647.655) (19.752.780) | (7.619.843)",
+  "net_kar": "Sürdürülen faaliyetler net dönem karı | 284.612.962 | 187.704.014 | 267.509.840 | 103.709.500"
+ }
+}

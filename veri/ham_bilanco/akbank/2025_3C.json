@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "akbank",
+ "donem": "2025_3C",
+ "dosya": "2025_3C_Akbank_Konsolide.pdf",
+ "sayfa": 8,
+ "satir": "I.       MEVDUAT                                                                                                                    (II-a)     1.282.969.336            743.951.897     2.026.921.233    1.084.719.003        547.878.382     1.632.597.385",
+ "birim": "bin TL",
+ "kaynak_birim": "bin TL",
+ "cari": {
+  "tp": 1282969336,
+  "yp": 743951897,
+  "toplam": 2026921233
+ },
+ "onceki_yil_sonu": {
+  "tp": 1084719003,
+  "yp": 547878382,
+  "toplam": 1632597385
+ }
+}

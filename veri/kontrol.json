@@ -1,6 +1,6 @@
 {
  "hata_sayisi": 0,
- "uyari_sayisi": 16,
+ "uyari_sayisi": 17,
  "yeniden_duzenleme": [
   {
    "banka": "yapikredi",
@@ -106,6 +106,13 @@
    "kalem": "net_ucret_komisyon",
    "tur": "onceki_yil",
    "fark_yuzde": 1.94
+  },
+  {
+   "banka": "teb",
+   "donem": "2026_3C",
+   "kalem": "net_ucret_komisyon",
+   "tur": "onceki_yil",
+   "fark_yuzde": 1.88
   },
   {
    "banka": "kuveytturk",

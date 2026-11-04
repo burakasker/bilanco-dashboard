@@ -36,7 +36,12 @@ PYS = {
 }
 
 DONEMLER = [f"{y}_{q}C" for y in (2024, 2025, 2026) for q in (1, 2, 3, 4)
-            if not (y == 2026 and q > 2)]
+            if not (y == 2026 and q > 3)]
+
+def bekleniyor(r, donem):
+    """Son dönemde raporu henüz yayımlanmamış kurum: hata sayılmaz, panelde boş kalır."""
+    return r["durum"] == "dosya_yok" and donem == DONEMLER[-1]
+
 
 SAYI = re.compile(r"^\(?-?\d{1,3}(?:[.,]\d{3})*\)?$")
 

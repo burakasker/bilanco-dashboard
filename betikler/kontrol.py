@@ -6,7 +6,7 @@ Uyarı: önceki yıl sütunu ile geçen yılın raporu arasındaki fark (yeniden
 import json
 import sys
 
-from ortak import BANKALAR, DONEMLER, HAM, KOK, PYS
+from ortak import BANKALAR, DONEMLER, HAM, KOK, PYS, bekleniyor
 
 
 def yakin(a, b, carpan):
@@ -21,6 +21,8 @@ def main():
         ham = {}
         for d in DONEMLER:
             r = json.loads((HAM / kod / f"{d}.json").read_text())
+            if bekleniyor(r, d):
+                continue
             if r["durum"] != "ok":
                 hatalar.append(f"{kod} {d}: {r['durum']}")
                 continue
@@ -71,6 +73,8 @@ def main():
         ham = {}
         for d in DONEMLER:
             r = json.loads((hb / kod / f"{d}.json").read_text())
+            if bekleniyor(r, d):
+                continue
             if r["durum"] != "ok":
                 hatalar.append(f"{kod} {d} mevduat: {r['durum']}")
                 continue
@@ -96,6 +100,8 @@ def main():
         ham = {}
         for d in DONEMLER:
             r = json.loads((hp / kod / f"{d}.json").read_text())
+            if bekleniyor(r, d):
+                continue
             if r["durum"] != "ok":
                 hatalar.append(f"PYŞ {kod} {d}: {r['durum']}")
                 continue

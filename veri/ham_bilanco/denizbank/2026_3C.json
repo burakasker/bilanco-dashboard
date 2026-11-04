@@ -1,0 +1,20 @@
+{
+ "durum": "ok",
+ "banka": "denizbank",
+ "donem": "2026_3C",
+ "dosya": "2026_3C_DenizBank_Konsolide.pdf",
+ "sayfa": 12,
+ "satir": "I.       MEVDUAT                                                        (5.II.a)    869.199          787.903      1.657.102    621.750          662.454       1.284.204",
+ "birim": "bin TL",
+ "kaynak_birim": "milyon TL",
+ "cari": {
+  "tp": 869199000,
+  "yp": 787903000,
+  "toplam": 1657102000
+ },
+ "onceki_yil_sonu": {
+  "tp": 621750000,
+  "yp": 662454000,
+  "toplam": 1284204000
+ }
+}

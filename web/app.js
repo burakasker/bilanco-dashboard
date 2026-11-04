@@ -361,7 +361,7 @@
       const f = milyar(b.seriler.net_faiz.ceyrek[n]), f0 = milyar(b.seriler.net_faiz.ceyrek[n - 4]);
       const k = milyar(b.seriler.net_ucret_komisyon.ceyrek[n]), k0 = milyar(b.seriler.net_ucret_komisyon.ceyrek[n - 4]);
       return { b, f, fd: yoy(f, f0), k, kd: yoy(k, k0), p: k / (f + k) };
-    }).sort((a, c) => (c.b.kod === "yapikredi") - (a.b.kod === "yapikredi") || c.f - a.f); // Yapı Kredi önde, kalanı net faize göre
+    }).sort((a, c) => (c.b.kod === "yapikredi") - (a.b.kod === "yapikredi") || (c.f ?? -Infinity) - (a.f ?? -Infinity) || 0); // Yapı Kredi önde, kalanı net faize göre, raporu gelmeyen sonda
     const d = (x) => degisim(x, false);
     document.getElementById("siralama").innerHTML = `<table>
       <tr>${L(["Banka", "Net faiz", "Yıllık", "Net ücret-kom.", "Yıllık", "Ücret payı"], ["Bank", "Net interest", "YoY", "Net fees", "YoY", "Fee share"]).map((x) => `<th>${basHarf(x)}</th>`).join("")}</tr>
@@ -396,7 +396,7 @@
       const al = milyar(b.seriler.alinan_ucret_komisyon.ceyrek[n]);
       const ver = milyar(b.seriler.verilen_ucret_komisyon.ceyrek[n]);
       const gn = milyar(b.seriler.alinan_gayrinakdi.ceyrek[n]);
-      document.getElementById(`alt-${b.kod}`).innerHTML =
+      document.getElementById(`alt-${b.kod}`).innerHTML = f == null ? L(`${v.donemler[n]}: rapor henüz yayımlanmadı.`, `${v.donemler[n]}: report not published yet.`) :
         L(`${v.donemler[n]}: alınan ${fmt(al)} mlr (gayrinakdi ${yuzde(gn / al)}), verilen ${fmt(ver)} mlr, verilen/alınan ${yuzde(ver / al)}`,
           `${v.donemler[n]}: received ${fmt(al)} bn (non-cash loans ${yuzde(gn / al)}), paid ${fmt(ver)} bn, paid/received ${yuzde(ver / al)}`);
       const g = grafik(`mini-${b.kod}`, cizgiSecenek(kes(v.donemler), [
@@ -753,6 +753,24 @@
     document.getElementById(`sekme-${yeni}`).focus();
   });
 
+  /* ---- son dönemde raporu henüz yayımlanmamış kurumlar ---- */
+  function bekleyenYaz() {
+    const not = document.getElementById("bekleyenNot"), bk = durum.nominal.bekleyen;
+    const sonIdx = durum.nominal.donemler.length - 1;
+    const pys = durum.sekme === "portfoy";
+    const kodlar = bk ? (pys ? bk.pys : bk.banka) : [];
+    not.hidden = !kodlar.length || durum.son !== sonIdx;
+    if (not.hidden) return;
+    const d = durum.veri.donemler[sonIdx];
+    const adlar = kodlar.map((k) => (pys ? durum.veri.pys[k].ad : durum.veri.bankalar.find((b) => b.kod === k).ad));
+    const liste = new Intl.ListFormat(L("tr", "en"), { type: "conjunction" }).format(adlar);
+    not.textContent = pys && kodlar.length === Object.keys(durum.veri.pys).length
+      ? L(`${d}: portföy şirketlerinin finansal raporları henüz yayımlanmadı. Bu çeyrekte yalnız SPK portföy büyüklüğü var.`,
+          `${d}: the asset management companies have not published their financial reports yet. Only SPK assets under management are available for this quarter.`)
+      : L(`${d}: ${liste} raporlarını henüz yayımlamadı; bu çeyrekte boş görünür.`,
+          `${d}: ${liste} ${kodlar.length > 1 ? "have" : "has"} not published ${kodlar.length > 1 ? "their reports" : "its report"} yet and ${kodlar.length > 1 ? "appear" : "appears"} blank for this quarter.`);
+  }
+
   /* ---- ana çizim ---- */
   function ciz() {
     if (!durum.nominal) return;
@@ -765,6 +783,7 @@
       ? L(`Yalnız portföy büyüklüğüne, TÜFE ile ${durum.nominal.enflasyon.baz} fiyatlarına`, `Assets under management only, CPI, in ${durum.nominal.enflasyon.baz} prices`)
       : L(`TÜFE ile ${durum.nominal.enflasyon.baz} fiyatlarına`, `CPI, in ${durum.nominal.enflasyon.baz} prices`);
     document.querySelectorAll(".sonDonemAd").forEach((e) => (e.textContent = v.donemler[durum.son]));
+    bekleyenYaz();
     if (durum.sekme === "portfoy") { portfoyCiz(kes(v.donemler)); return; }
     const bs = seciliBankalar();
     const satir = (fn) => bs.map((b) => ({ ad: b.ad, renk: bankaRenk(b), cizgi: bankaCizgi(b), veri: fn(b) }));

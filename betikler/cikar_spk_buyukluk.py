@@ -28,7 +28,7 @@ AD = {
     "denizbank": ["DENİZ PORTFÖY"],
     "kuveytturk": ["KUVEYT TÜRK PORTFÖY", "KUVEYT TURK PORTFÖY", "KT PORTFÖY"],
 }
-DONEMLER = [(y, q) for y in (2023, 2024, 2025, 2026) for q in (1, 2, 3, 4) if not (y == 2026 and q > 2)]
+DONEMLER = [(y, q) for y in (2023, 2024, 2025, 2026) for q in (1, 2, 3, 4) if not (y == 2026 and q > 3)]
 
 
 def indir(url, yol):

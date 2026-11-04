@@ -1,0 +1,41 @@
+{
+ "durum": "ok",
+ "banka": "yapikredi",
+ "donem": "2026_3C",
+ "dosya": "2026_3C_Yapi_Kredi_Bankasi_Konsolide.pdf",
+ "sayfa": 12,
+ "birim": "bin TL",
+ "kaynak_birim": "milyon TL",
+ "cari_birikimli": {
+  "faiz_geliri": 567990000,
+  "faiz_gideri": 384917000,
+  "net_faiz": 183073000,
+  "net_ucret_komisyon": 98268000,
+  "alinan_ucret_komisyon": 158801000,
+  "alinan_gayrinakdi": 5196000,
+  "alinan_diger": 153605000,
+  "verilen_ucret_komisyon": 60533000
+ },
+ "onceki_yil_birikimli": {
+  "faiz_geliri": 445668000,
+  "faiz_gideri": 336890000,
+  "net_faiz": 108778000,
+  "net_ucret_komisyon": 82348000,
+  "alinan_ucret_komisyon": 123121000,
+  "alinan_gayrinakdi": 4540000,
+  "alinan_diger": 118581000,
+  "verilen_ucret_komisyon": 40773000
+ },
+ "cari_ceyrek": null,
+ "onceki_yil_ceyrek": null,
+ "satirlar": {
+  "faiz_geliri": "I.         FAİZ GELİRLERİ                                                                               4.1          567.990            445.668",
+  "faiz_gideri": "II.        FAİZ GİDERLERİ (-)                                                                           4.2          384.917            336.890",
+  "net_faiz": "III.       NET FAİZ GELİRİ/GİDERİ (I - II)                                                                           183.073            108.778",
+  "net_ucret_komisyon": "IV.        NET ÜCRET VE KOMİSYON GELİRLERİ/GİDERLERİ                                                                   98.268            82.348",
+  "alinan_ucret_komisyon": "4.1        Alınan Ücret ve Komisyonlar                                                                               158.801            123.121",
+  "alinan_gayrinakdi": "4.1.1      Gayri Nakdi Kredilerden                                                                                      5.196             4.540",
+  "alinan_diger": "4.1.2      Diğer                                                                                       4.11          153.605            118.581",
+  "verilen_ucret_komisyon": "4.2        Verilen Ücret ve Komisyonlar (-)                                                                            60.533            40.773"
+ }
+}

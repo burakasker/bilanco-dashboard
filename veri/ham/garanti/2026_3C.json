@@ -1,0 +1,59 @@
+{
+ "durum": "ok",
+ "banka": "garanti",
+ "donem": "2026_3C",
+ "dosya": "2026_3C_Garanti_BBVA_Konsolide.pdf",
+ "sayfa": 14,
+ "birim": "bin TL",
+ "kaynak_birim": "milyon TL",
+ "cari_birikimli": {
+  "faiz_geliri": 725216000,
+  "faiz_gideri": 499177000,
+  "net_faiz": 226039000,
+  "net_ucret_komisyon": 141161000,
+  "alinan_ucret_komisyon": 200160000,
+  "alinan_gayrinakdi": 6092000,
+  "alinan_diger": 194068000,
+  "verilen_ucret_komisyon": 58999000
+ },
+ "onceki_yil_birikimli": {
+  "faiz_geliri": 561571000,
+  "faiz_gideri": 427579000,
+  "net_faiz": 133992000,
+  "net_ucret_komisyon": 103949000,
+  "alinan_ucret_komisyon": 147090000,
+  "alinan_gayrinakdi": 4849000,
+  "alinan_diger": 142241000,
+  "verilen_ucret_komisyon": 43141000
+ },
+ "cari_ceyrek": {
+  "faiz_geliri": 272464000,
+  "faiz_gideri": 185584000,
+  "net_faiz": 86880000,
+  "net_ucret_komisyon": 50424000,
+  "alinan_ucret_komisyon": 73951000,
+  "alinan_gayrinakdi": 2168000,
+  "alinan_diger": 71783000,
+  "verilen_ucret_komisyon": 23527000
+ },
+ "onceki_yil_ceyrek": {
+  "faiz_geliri": 207226000,
+  "faiz_gideri": 153117000,
+  "net_faiz": 54109000,
+  "net_ucret_komisyon": 38771000,
+  "alinan_ucret_komisyon": 55273000,
+  "alinan_gayrinakdi": 1767000,
+  "alinan_diger": 53506000,
+  "verilen_ucret_komisyon": 16502000
+ },
+ "satirlar": {
+  "faiz_geliri": "I.        FAİZ GELİRLERİ                                                                             5.4.1              725,216                561,571                272,464                207,226",
+  "faiz_gideri": "II.       FAİZ GİDERLERİ (-)                                                                         5.4.2              499,177                427,579                185,584                153,117",
+  "net_faiz": "III.      NET FAİZ GELİRİ/GİDERİ (I - II)                                                                               226,039                133,992                  86,880                54,109",
+  "net_ucret_komisyon": "IV.       NET ÜCRET VE KOMİSYON GELİRLERİ/GİDERLERİ                                                  5.4.12             141,161                103,949                  50,424                38,771",
+  "alinan_ucret_komisyon": "4.1       Alınan Ücret ve Komisyonlar                                                                                   200,160                147,090                  73,951                55,273",
+  "alinan_gayrinakdi": "4.1.1     Gayri Nakdi Kredilerden                                                                                          6,092                  4,849                  2,168                  1,767",
+  "alinan_diger": "4.1.2     Diğer                                                                                                         194,068                142,241                  71,783                53,506",
+  "verilen_ucret_komisyon": "4.2       Verilen Ücret ve Komisyonlar (-)                                                                                58,999                 43,141                 23,527                16,502"
+ }
+}

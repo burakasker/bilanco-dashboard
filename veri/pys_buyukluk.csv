@@ -111,3 +111,11 @@ teb,2026_2C,383151333944.22,TEB PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 
 qnb,2026_2C,579710538297.15,QNB PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 2026/06,https://ws.spk.gov.tr/SeryetPortfoyDegerleri/api/GetPortfoyDegerleri?yil=2026&ay=6
 denizbank,2026_2C,688418679077.58,DENİZ PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 2026/06,https://ws.spk.gov.tr/SeryetPortfoyDegerleri/api/GetPortfoyDegerleri?yil=2026&ay=6
 kuveytturk,2026_2C,607698615830.66,KUVEYT TÜRK PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 2026/06,https://ws.spk.gov.tr/SeryetPortfoyDegerleri/api/GetPortfoyDegerleri?yil=2026&ay=6
+yapikredi,2026_3C,1233128906011.27,YAPI KREDİ PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 2026/09,https://ws.spk.gov.tr/SeryetPortfoyDegerleri/api/GetPortfoyDegerleri?yil=2026&ay=9
+akbank,2026_3C,1612578707895.58,AK PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 2026/09,https://ws.spk.gov.tr/SeryetPortfoyDegerleri/api/GetPortfoyDegerleri?yil=2026&ay=9
+isbank,2026_3C,1684599714621.0,İŞ PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 2026/09,https://ws.spk.gov.tr/SeryetPortfoyDegerleri/api/GetPortfoyDegerleri?yil=2026&ay=9
+garanti,2026_3C,1513804162677.05,GARANTİ PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 2026/09,https://ws.spk.gov.tr/SeryetPortfoyDegerleri/api/GetPortfoyDegerleri?yil=2026&ay=9
+teb,2026_3C,385928599309.48,TEB PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 2026/09,https://ws.spk.gov.tr/SeryetPortfoyDegerleri/api/GetPortfoyDegerleri?yil=2026&ay=9
+qnb,2026_3C,604430301449.94,QNB PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 2026/09,https://ws.spk.gov.tr/SeryetPortfoyDegerleri/api/GetPortfoyDegerleri?yil=2026&ay=9
+denizbank,2026_3C,633020791241.02,DENİZ PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 2026/09,https://ws.spk.gov.tr/SeryetPortfoyDegerleri/api/GetPortfoyDegerleri?yil=2026&ay=9
+kuveytturk,2026_3C,622821048009.56,KUVEYT TÜRK PORTFÖY YÖNETİMİ ANONİM ŞİRKETİ,SPK API 2026/09,https://ws.spk.gov.tr/SeryetPortfoyDegerleri/api/GetPortfoyDegerleri?yil=2026&ay=9

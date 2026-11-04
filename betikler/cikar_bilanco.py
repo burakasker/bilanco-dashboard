@@ -9,7 +9,7 @@ import re
 import sys
 
 from cikar_gelir_tablosu import birim_bul
-from ortak import BANKALAR, DONEMLER, KOK, KONSOLIDE, pdf_sayfalar, sayi
+from ortak import BANKALAR, DONEMLER, KOK, KONSOLIDE, bekleniyor, pdf_sayfalar, sayi
 
 HAM_BILANCO = KOK / "veri" / "ham_bilanco"
 SATIR = re.compile(r"^\s*I\.?\s+(MEVDUAT|TOPLANAN FONLAR|KATILIM FONU)\b(.*)$", re.M)
@@ -52,7 +52,9 @@ def main(bankalar):
         for d in DONEMLER:
             r = cikar(kod, d)
             (HAM_BILANCO / kod / f"{d}.json").write_text(json.dumps(r, ensure_ascii=False, indent=1))
-            if r["durum"] != "ok":
+            if bekleniyor(r, d):
+                print(f"{kod} {d}: rapor bekleniyor")
+            elif r["durum"] != "ok":
                 hata += 1
                 print(f"{kod} {d}: {r['durum']}")
     print(f"mevduat çıkarımı, hata: {hata}")

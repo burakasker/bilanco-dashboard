@@ -7,7 +7,7 @@ import json
 import re
 import sys
 
-from ortak import BANKALAR, DONEMLER, HAM, KONSOLIDE, pdf_sayfalar, sayi
+from ortak import BANKALAR, DONEMLER, HAM, KONSOLIDE, bekleniyor, pdf_sayfalar, sayi
 
 KALEMLER = {  # satır kodu -> alan adı
     "I": "faiz_geliri",
@@ -125,7 +125,9 @@ def main(bankalar):
             r = cikar(kod, d)
             (HAM / kod / f"{d}.json").write_text(
                 json.dumps(r, ensure_ascii=False, indent=1))
-            if r["durum"] != "ok":
+            if bekleniyor(r, d):
+                print(f"{kod} {d}: rapor bekleniyor")
+            elif r["durum"] != "ok":
                 hata += 1
                 print(f"{kod} {d}: {r['durum']} {r.get('satir', '')}")
             else:

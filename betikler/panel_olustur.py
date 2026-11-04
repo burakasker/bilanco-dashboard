@@ -98,6 +98,7 @@ def pys_seri(kod):
     1Ç: 3 aylık rapor; 2Ç-3Ç: raporun kendi 3 aylık sütunu; 4Ç: yıllık - 9 aylık (rapor 3 aylık vermiyor)."""
     hp = KOK / "veri" / "ham_pys" / kod
     ham = {d: json.loads((hp / f"{d}.json").read_text()) for d in DONEMLER}
+    ham = {d: x for d, x in ham.items() if x["durum"] == "ok"}
     cey, yontem, kaynak = {}, {}, {}
     for d, x in ham.items():
         k = x["kalemler"]
@@ -149,6 +150,8 @@ def pys_blok():
             "kaynak": [kaynak.get(d) for d in TUM_DONEMLER],
         }
         for d in DONEMLER:
+            if d not in cey:
+                continue
             satirlar.append({"pys": kod, "donem": d, **{f"{a}_tl": cey[d][a] for a in PYS_ALANLAR},
                              "ceyrek_yontemi": yontem[d], "kaynak": kaynak[d]})
     with open(KOK / "veri" / "pys_panel.csv", "w", newline="") as f:
@@ -235,6 +238,7 @@ def main():
         w.writeheader()
         w.writerows(mev_satirlar)
 
+    pys = pys_blok()
     veri = {
         "olusturma": date.today().isoformat(),
         "birim": "milyon TL",
@@ -244,12 +248,18 @@ def main():
             "Tutarlar raporlarda yayımlandığı gibi nominaldir; üstteki anahtarla son çeyrek fiyatlarına (TÜFE) taşınmış hâli görülebilir.",
             "2023 çeyrekleri 2024 raporlarının önceki dönem sütunundan alındı.",
             "Kuveyt Türk katılım bankası: net faiz yerine net kâr payı geliri.",
-            "2026/2Ç raporları milyon TL yayımlandı; diğer dönemler bin TL'den çevrildi.",
+            "2026/2Ç ve sonraki raporlar milyon TL yayımlandı; önceki dönemler bin TL'den çevrildi.",
         ],
         "bankalar": bankalar,
         "uvek": uvek_oku(),
-        "pys": pys_blok(),
+        "pys": pys,
         "enflasyon": enflasyon_blok(),
+        # son dönemde raporu henüz yayımlanmamış kurumlar (arayüz uyarısı ve sektör toplamları için)
+        "bekleyen": {
+            "donem": etiket(DONEMLER[-1]),
+            "banka": [b["kod"] for b in bankalar if b["seriler"]["net_faiz"]["birikimli"][-1] is None],
+            "pys": [k for k, v in pys.items() if v["hasilat"][-1] is None],
+        },
     }
     out = KOK / "web" / "data" / "panel.json"
     out.write_text(json.dumps(veri, ensure_ascii=False, separators=(",", ":")))

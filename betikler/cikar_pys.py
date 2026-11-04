@@ -9,7 +9,7 @@ import json
 import re
 import sys
 
-from ortak import DONEMLER, KOK, PYS, PYS_KLASOR, pdf_sayfalar, sayi
+from ortak import DONEMLER, KOK, PYS, PYS_KLASOR, bekleniyor, pdf_sayfalar, sayi
 
 HAM_PYS = KOK / "veri" / "ham_pys"
 # metni çıkmayan ya da etiketi bölünmüş raporlar için elle okunan değerler (kaynak notuyla)
@@ -97,7 +97,9 @@ def main(kodlar):
         for d in DONEMLER:
             r = ELLE.get(f"{kod}/{d}") or cikar(kod, d)
             (HAM_PYS / kod / f"{d}.json").write_text(json.dumps(r, ensure_ascii=False, indent=1))
-            if r["durum"] != "ok":
+            if bekleniyor(r, d):
+                print(f"{kod} {d}: rapor bekleniyor")
+            elif r["durum"] != "ok":
                 hata += 1
                 print(f"{kod} {d}: {r['durum']} {r.get('bulunan', '')}")
     print(f"PYŞ çıkarımı, hata: {hata}")

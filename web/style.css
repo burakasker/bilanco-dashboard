@@ -304,3 +304,7 @@ a.pdf-bag:hover svg { transform: translateY(-1px); }
   font: inherit; font-size: 15px; font-weight: 600; padding: 8px 18px; border-radius: 9px; border: 0; cursor: pointer;
   background: var(--vurgu); color: var(--yuzey);
 }
+
+/* son dönemde raporu gelmeyen kurumlar */
+.bekleyen-not { margin: 12px 0 0; padding: 8px 12px; border-radius: 8px; border-left: 3px solid var(--vurgu); background: var(--zemin); font-size: 13px; color: var(--metin-2); }
+.bekleyen-not[hidden] { display: none; }

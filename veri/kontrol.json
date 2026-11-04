@@ -1,7 +1,21 @@
 {
  "hata_sayisi": 0,
- "uyari_sayisi": 12,
+ "uyari_sayisi": 16,
  "yeniden_duzenleme": [
+  {
+   "banka": "yapikredi",
+   "donem": "2026_3C",
+   "kalem": "net_faiz",
+   "tur": "onceki_yil",
+   "fark_yuzde": -0.55
+  },
+  {
+   "banka": "yapikredi",
+   "donem": "2026_3C",
+   "kalem": "net_ucret_komisyon",
+   "tur": "onceki_yil",
+   "fark_yuzde": -2.17
+  },
   {
    "banka": "isbank",
    "donem": "2026_2C",
@@ -43,6 +57,20 @@
    "kalem": "net_ucret_komisyon",
    "tur": "onceki_yil",
    "fark_yuzde": -0.45
+  },
+  {
+   "banka": "garanti",
+   "donem": "2026_3C",
+   "kalem": "net_faiz",
+   "tur": "onceki_yil",
+   "fark_yuzde": -2.8
+  },
+  {
+   "banka": "garanti",
+   "donem": "2026_3C",
+   "kalem": "net_ucret_komisyon",
+   "tur": "onceki_yil",
+   "fark_yuzde": -0.44
   },
   {
    "banka": "teb",
